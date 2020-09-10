@@ -1,0 +1,31 @@
+{
+    "name": "lewebsimple/wp-boilerplate",
+    "description": "WordPress project boilerplate.",
+    "version": "0.1.0",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://satis.ledevsimple.ca"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "post-install-cmd": "wp core download --force --skip-content"
+    },
+    "require": {
+        "lewebsimple/kaliroots": "*",
+        "wpackagist-plugin/autodescription": "*",
+        "wpackagist-plugin/disable-comments": "*",
+        "wpackagist-plugin/loco-translate": "*",
+        "wpackagist-plugin/user-switching": "*"
+    }
+}

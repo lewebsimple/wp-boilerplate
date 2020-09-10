@@ -1,7 +1,7 @@
 {
     "name": "lewebsimple/wp-boilerplate",
     "description": "WordPress project boilerplate.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "type": "project",
     "repositories": [
         {
@@ -13,7 +13,6 @@
             "url": "https://satis.ledevsimple.ca"
         }
     ],
-    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "sort-packages": true

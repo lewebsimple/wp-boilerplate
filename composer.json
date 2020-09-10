@@ -1,7 +1,7 @@
 {
     "name": "lewebsimple/wp-boilerplate",
     "description": "WordPress project boilerplate.",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "type": "project",
     "repositories": [
         {
@@ -18,7 +18,8 @@
         "sort-packages": true
     },
     "scripts": {
-        "post-install-cmd": "wp core download --force --skip-content"
+        "post-install-cmd": "wp core download --force --skip-content",
+        "post-create-project-cmd": "wp core download --force --skip-content"
     },
     "require": {
         "lewebsimple/kaliroots": "*",

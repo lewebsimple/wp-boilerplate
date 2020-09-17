@@ -1,8 +1,15 @@
+# Ignore everyghing except .gitignore and composer.*
 /*
 !/.gitignore
-!/composer.json
+!/composer.*
 !/wp-content/
 /wp-content/*
+
+# Version-controlled plugins
+!/wp-content/plugins/
+/wp-content/plugins/*
+
+# Version-controlled themes
 !/wp-content/themes/
 /wp-content/themes/*
 !/wp-content/themes/boilerplate

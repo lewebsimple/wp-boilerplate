@@ -1,7 +1,7 @@
 {
     "name": "lewebsimple/wp-boilerplate",
     "description": "WordPress project boilerplate.",
-    "version": "0.1.3",
+    "version": "0.1.5",
     "type": "project",
     "repositories": [
         {
@@ -22,10 +22,5 @@
         "post-create-project-cmd": "wp core download --force --skip-content"
     },
     "require": {
-        "lewebsimple/kaliroots": "*",
-        "wpackagist-plugin/autodescription": "*",
-        "wpackagist-plugin/disable-comments": "*",
-        "wpackagist-plugin/loco-translate": "*",
-        "wpackagist-plugin/user-switching": "*"
     }
 }

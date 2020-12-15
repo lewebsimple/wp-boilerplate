@@ -18,7 +18,7 @@
         "sort-packages": true
     },
     "scripts": {
-        "post-install-cmd": "wp core download --force --skip-content",
+        "post-update-cmd": "wp core download --force --skip-content",
         "post-create-project-cmd": "wp core download --force --skip-content"
     },
     "require": {

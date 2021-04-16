@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -25,6 +25,7 @@
       "wp core download --force --skip-content",
       "@db-create",
       "@core-init",
+      "@lang-update",
       "@git-init",
       "@wpcfm-init"
     ],
@@ -35,14 +36,14 @@
       "wp core config --dbname=wp_${PWD##*/}",
       "wp core install --url=${PWD##*/}.ledevsimple.ca --title=${PWD##*/}"
     ],
-    "git-init": [
-      "git init && git add -A && git commit -am 'Initial WordPress project'"
-    ],
-    "update-languages": [
+    "lang-update": [
       "wp language core install fr_CA",
       "wp language core update",
       "wp language plugin install --all fr_CA",
       "wp language plugin update --all"
+    ],
+    "git-init": [
+      "git init && git add -A && git commit -am 'Initial WordPress project'"
     ],
     "wpcfm-init": [
       "wp plugin activate wp-cfm",

@@ -6,6 +6,7 @@
 /wp-content/*
 
 # Version-controlled plugins
+!/wp-content/mu-plugins/
 !/wp-content/plugins/
 /wp-content/plugins/*
 

@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -22,18 +22,31 @@
     "post-create-project-cmd": [
       "sed -i -e \"s/wp-boilerplate/${PWD##*/}/g\" composer.json .gitignore",
       "mkdir -p wp-content/plugins wp-content/themes wp-content/uploads",
-      "wp core download --force --skip-content --quiet",
-      "wp core config --dbname=wp_${PWD##*/} --quiet",
-      "wp core install --url=${PWD##*/}.ledevsimple.ca --title=${PWD##*/} --quiet",
-      "wp language core install fr_CA --quiet",
-      "wp site switch-language fr_CA --quiet",
-      "wp plugin activate wp-cfm --quiet",
-      "wp config pull all --quiet",
+      "wp core download --force --skip-content",
+      "@db-create",
+      "@core-init",
+      "@git-init",
+      "@wpcfm-init"
+    ],
+    "db-create": [
+      "mysql -e \"CREATE DATABASE wp_${PWD##*/}\""
+    ],
+    "core-init": [
+      "wp core config --dbname=wp_${PWD##*/}",
+      "wp core install --url=${PWD##*/}.ledevsimple.ca --title=${PWD##*/}",
+    ],
+    "git-init": [
       "git init && git add -A && git commit -am 'Initial WordPress project'"
     ],
-    "post-install-cmd": [
-      "wp language core update --quiet",
-      "wp language plugin update --all --quiet"
+    "update-languages": [
+      "wp language core install fr_CA",
+      "wp language core update",
+      "wp language plugin install --all fr_CA",
+      "wp language plugin update --all"
+    ],
+    "wpcfm-init": [
+      "wp plugin activate wp-cfm",
+      "wp config pull all"
     ]
   },
   "require": {

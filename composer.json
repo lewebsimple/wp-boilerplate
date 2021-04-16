@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.1.15",
+  "version": "0.1.17",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -20,21 +20,26 @@
   },
   "scripts": {
     "post-create-project-cmd": [
+      "[[ -z \"${PWD##*/}\" ]] && { echo \"Missing project name, aborting...\" ; exit 1; }",
       "sed -i -e \"s/wp-boilerplate/${PWD##*/}/g\" composer.json .gitignore",
       "mkdir -p wp-content/plugins wp-content/themes wp-content/uploads",
       "wp core download --force --skip-content",
       "@db-create",
       "@core-init",
       "@lang-update",
-      "@git-init",
-      "@wpcfm-init"
-    ],
-    "db-create": [
-      "mysql -e \"CREATE DATABASE wp_${PWD##*/}\""
+      "@wpcfm-init",
+      "@theme-init",
+      "@git-init"
     ],
     "core-init": [
       "wp core config --dbname=wp_${PWD##*/}",
       "wp core install --url=${PWD##*/}.ledevsimple.ca --title=${PWD##*/}"
+    ],
+    "db-create": [
+      "mysql -e \"CREATE DATABASE wp_${PWD##*/}\""
+    ],
+    "git-init": [
+      "git init && git add -A && git commit -am 'Initial WordPress project'"
     ],
     "lang-update": [
       "wp language core install fr_CA",
@@ -42,8 +47,14 @@
       "wp language plugin install --all fr_CA",
       "wp language plugin update --all"
     ],
-    "git-init": [
-      "git init && git add -A && git commit -am 'Initial WordPress project'"
+    "theme-init": [
+      "git clone --depth=1 ssh://git@gitlab.ledevsimple.ca:222/wp-themes/kaliroots-child.git wp-content/themes/${PWD##*/}",
+      "rm -rf wp-content/themes/${PWD##*/}/.git",
+      "find wp-content/themes/${PWD##*/} -iname kaliroots-child* | rename -v \"s/kaliroots-child/${PWD##*/}/g\"",
+      "find wp-content/themes/${PWD##*/} -type f -exec sed -i'' -e \"s/kaliroots-child/${PWD##*/}/g\" {} +",
+      "find wp-content/themes/${PWD##*/} -type f ! -exec sed -i'' -e \"s/kaliroots_child/${PWD##*/}/g\" {} +",
+      "find wp-content/themes/${PWD##*/} -type f ! -path \"*.mo\" -exec sed -i'' -e \"s/Kaliroots-Child/${PWD##*/}/g\" {} +",
+      "wp theme activate ${PWD##*/}"
     ],
     "wpcfm-init": [
       "wp plugin activate wp-cfm",
@@ -51,6 +62,12 @@
     ]
   },
   "require": {
+    "lewebsimple/acf-polylang": "*",
+    "lewebsimple/advanced-custom-fields-pro": "*",
+    "lewebsimple/gravityforms": "*",
+    "lewebsimple/ithemes-security-pro": "*",
+    "lewebsimple/js_composer": "*",
+    "lewebsimple/kaliroots": "*",
     "wpackagist-plugin/loco-translate": "*",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/safe-svg": "*",

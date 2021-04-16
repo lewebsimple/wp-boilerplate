@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -22,7 +22,7 @@
     "post-create-project-cmd": [
       "sed -i -e \"s/wp-boilerplate/${PWD##*/}/g\" composer.json .gitignore",
       "wp core download --force --skip-content",
-      "mkdir -p wp-content/config wp-content/plugins wp-content/themes wp-content/uploads",
+      "mkdir -p wp-content/plugins wp-content/themes wp-content/uploads",
       "git init && git add -A && git commit -am 'Initial WordPress project'"
     ]
   },

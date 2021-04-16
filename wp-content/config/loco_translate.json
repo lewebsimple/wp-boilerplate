@@ -1,0 +1,4 @@
+{
+    "loco_settings": "a:4:{s:1:\"c\";s:18:\"Loco_data_Settings\";s:1:\"v\";i:0;s:1:\"d\";a:23:{s:7:\"version\";s:5:\"2.5.2\";s:8:\"gen_hash\";b:0;s:9:\"use_fuzzy\";b:1;s:9:\"fuzziness\";i:20;s:11:\"num_backups\";i:0;s:9:\"pot_alias\";a:3:{i:0;s:10:\"default.po\";i:1;s:8:\"en_US.po\";i:2;s:5:\"en.po\";}s:9:\"php_alias\";a:2:{i:0;s:3:\"php\";i:1;s:4:\"twig\";}s:9:\"jsx_alias\";a:0:{}s:10:\"fs_persist\";b:0;s:10:\"fs_protect\";i:0;s:11:\"pot_protect\";i:0;s:12:\"pot_expected\";i:0;s:12:\"max_php_size\";s:4:\"500K\";s:11:\"po_utf8_bom\";b:0;s:8:\"po_width\";s:2:\"79\";s:10:\"jed_pretty\";b:0;s:9:\"jed_clean\";b:0;s:10:\"ajax_files\";b:1;s:13:\"deepl_api_key\";s:0:\"\";s:14:\"google_api_key\";s:0:\"\";s:14:\"yandex_api_key\";s:0:\"\";s:17:\"microsoft_api_key\";s:0:\"\";s:20:\"microsoft_api_region\";s:6:\"global\";}s:1:\"t\";i:1618537700;}",
+    ".label": "Loco Translate"
+}

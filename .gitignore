@@ -5,6 +5,9 @@
 !/wp-content/
 /wp-content/*
 
+# Version-controlled config
+!/wp-content/config/
+
 # Version-controlled plugins
 !/wp-content/mu-plugins/
 !/wp-content/plugins/

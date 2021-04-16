@@ -1,7 +1,10 @@
 <?php
 /**
  * Plugin Name: WP-CFM multi-environment
+ * Description: Detect WP-CFM environment and sane default filters for configuration items.
  * Version: 0.1.9
+ * Author:      Le Web simple <pascal@lewebsimple.ca>
+ * Author URI:  https://lewebsimple.ca
  */
 
 if ( ! defined( 'WPINC' ) ) {

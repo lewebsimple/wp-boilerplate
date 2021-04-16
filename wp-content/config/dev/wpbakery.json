@@ -1,0 +1,20 @@
+{
+    "wpb_js_default_template_post_type": "a:0:{}",
+    "wpb_js_google_fonts_subsets": "a:1:{i:0;s:5:\"latin\";}",
+    "wpb_js_gutenberg_disable": "1",
+    "wpb_js_gutter": "32",
+    "wpb_js_margin": "32px",
+    "wpb_js_responsive_max": "768",
+    "wpb_js_templates": "a:2:{s:38:\"frais-et-delais-dexpedition_3722352493\";a:2:{s:4:\"name\";s:30:\"Frais et d\u00e9lais d'exp\u00e9dition\";s:8:\"template\";s:1869:\"[vc_row][vc_column][vc_column_text]\n<table width=\"100%\" cellspacing=\"0\" cellpadding=\"4\">\n<tbody>\n<tr valign=\"top\">\n<td width=\"33%\"><\/td>\n<td class=\"p-4 bg-orange text-white border-r border-white\" style=\"text-align: center;\" width=\"33%\"><strong>Poste Canada<\/strong><\/td>\n<td class=\"p-4 bg-orange text-white\" style=\"text-align: center;\" width=\"33%\"><strong>Puro\/Canpar\/Dicom<\/strong><\/td>\n<\/tr>\n<tr valign=\"middle\">\n<td class=\"border-t border-b border-white bg-light\" style=\"text-align: right;\" width=\"33%\"><span class=\"text-orange font-semibold\"><strong>D\u00e9lai de livraison<\/strong><\/span><\/td>\n<td class=\"border p-4\" style=\"text-align: center;\" width=\"33%\">Livraison en 3 jours ouvrables, mais d\u00e9lais suppl\u00e9mentaires possibles en p\u00e9riode de forte demande (ex. : temps des f\u00eates).<\/td>\n<td class=\"border p-4\" style=\"text-align: center;\" width=\"33%\">Livraison en 3 jours ouvrables.<\/td>\n<\/tr>\n<tr valign=\"middle\">\n<td class=\"border-t border-b border-white bg-light\" style=\"text-align: right;\" width=\"33%\"><span class=\"text-orange font-semibold\"><strong>Commandes de 50 $ ou plus<\/strong><\/span><\/td>\n<td class=\"border p-4\" style=\"text-align: center;\" width=\"33%\"><span class=\"text-orange font-semibold\">Gratuit<\/span><\/td>\n<td class=\"border p-4\" style=\"text-align: center;\" width=\"33%\"><span class=\"text-orange font-semibold\">7,99 $<\/span><\/td>\n<\/tr>\n<tr valign=\"middle\">\n<td class=\"border-t border-b border-white bg-light\" style=\"text-align: right;\" width=\"33%\"><span class=\"text-orange font-semibold\"><strong>Commandes de moins de 50 $<\/strong><\/span><\/td>\n<td class=\"border p-4\" style=\"text-align: center;\" width=\"33%\"><span class=\"text-orange font-semibold\">9,99 $<\/span><\/td>\n<td class=\"border p-4\" style=\"text-align: center;\" width=\"33%\"><span class=\"text-orange font-semibold\">19,99 $<\/span><\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n[\/vc_column_text][\/vc_column][\/vc_row]\";}s:32:\"nos-forfaits-mensuels_1571856814\";a:2:{s:4:\"name\";s:21:\"Nos forfaits mensuels\";s:8:\"template\";s:791:\"[vc_row][vc_column][hero_blocks][pricing_block title=\"Le Petit\" price=\"39,99 $+tx\"]Ce forfait inclut <strong>5 jeux<\/strong> avec un service de rotation mensuelle.\n\nUn d\u00e9p\u00f4t de 80 $ vous est demand\u00e9 pour pallier la perte ou le bris de jeux ou de pi\u00e8ces.[\/pricing_block][pricing_block title=\"Le Moyen\" price=\"49,99 $+tx\"]Ce forfait inclut <strong>8 jeux<\/strong> avec un service de rotation mensuelle.\n\nUn d\u00e9p\u00f4t de 90 $ vous est demand\u00e9 pour pallier la perte ou le bris de jeux ou de pi\u00e8ces.[\/pricing_block][pricing_block title=\"Le Gros\" price=\"59,99 $+tx\"]Ce forfait inclut <strong>10 jeux<\/strong> avec un service de rotation mensuelle.\n\nUn d\u00e9p\u00f4t de 120 $ vous est demand\u00e9 pour pallier la perte ou le bris de jeux ou de pi\u00e8ces.[\/pricing_block][\/hero_blocks][\/vc_column][\/vc_row]\";}}",
+    "wpb_js_use_custom": "1",
+    "wpb_js_vc_color": "#f7f7f7",
+    "wpb_js_vc_color_call_to_action_bg": "",
+    "wpb_js_vc_color_google_maps_bg": "",
+    "wpb_js_vc_color_hover": "#F0F0F0",
+    "wpb_js_vc_color_post_slider_caption_bg": "",
+    "wpb_js_vc_color_progress_bar_bg": "",
+    "wpb_js_vc_color_separator_border": "",
+    "wpb_js_vc_color_tab_bg": "",
+    "wpb_js_vc_color_tab_bg_active": "",
+    ".label": "WPBakery"
+}

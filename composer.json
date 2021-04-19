@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -20,7 +20,6 @@
   },
   "scripts": {
     "post-create-project-cmd": [
-      "[[ -z \"${PWD##*/}\" ]] && { echo \"Missing project name, aborting...\" ; exit 1; }",
       "sed -i -e \"s/wp-boilerplate/${PWD##*/}/g\" composer.json .gitignore",
       "mkdir -p wp-content/plugins wp-content/themes wp-content/uploads",
       "wp core download --force --skip-content",

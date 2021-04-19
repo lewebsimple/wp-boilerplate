@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -28,7 +28,6 @@
       "@core-init",
       "@lang-update",
       "@wpcfm-init",
-      "@theme-init",
       "@git-init"
     ],
     "core-init": [
@@ -46,15 +45,6 @@
       "wp language core update",
       "wp language plugin install --all fr_CA",
       "wp language plugin update --all"
-    ],
-    "theme-init": [
-      "git clone --depth=1 ssh://git@gitlab.ledevsimple.ca:222/wp-themes/kaliroots-child.git wp-content/themes/${PWD##*/}",
-      "rm -rf wp-content/themes/${PWD##*/}/.git",
-      "find wp-content/themes/${PWD##*/} -iname kaliroots-child* | rename -v \"s/kaliroots-child/${PWD##*/}/g\"",
-      "find wp-content/themes/${PWD##*/} -type f -exec sed -i'' -e \"s/kaliroots-child/${PWD##*/}/g\" {} +",
-      "find wp-content/themes/${PWD##*/} -type f ! -exec sed -i'' -e \"s/kaliroots_child/${PWD##*/}/g\" {} +",
-      "find wp-content/themes/${PWD##*/} -type f ! -path \"*.mo\" -exec sed -i'' -e \"s/Kaliroots-Child/${PWD##*/}/g\" {} +",
-      "wp theme activate ${PWD##*/}"
     ],
     "wpcfm-init": [
       "wp plugin activate wp-cfm",

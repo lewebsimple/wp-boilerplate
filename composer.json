@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.1.19",
+  "version": "0.1.20",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -34,7 +34,7 @@
       "wp core install --url=${PWD##*/}.ledevsimple.ca --title=${PWD##*/}"
     ],
     "db-create": [
-      "mysql -e \"CREATE DATABASE wp_${PWD##*/}\""
+      "mysql -e \"CREATE DATABASE IF NOT EXISTS wp_${PWD##*/}\""
     ],
     "git-init": [
       "git init && git add -A && git commit -am 'Initial WordPress project'"

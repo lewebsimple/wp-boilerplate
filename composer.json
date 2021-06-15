@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.1.20",
+  "version": "0.1.21",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -25,8 +25,6 @@
       "wp core download --force --skip-content",
       "@db-create",
       "@core-init",
-      "@lang-update",
-      "@wpcfm-init",
       "@git-init"
     ],
     "core-init": [
@@ -38,29 +36,8 @@
     ],
     "git-init": [
       "git init && git add -A && git commit -am 'Initial WordPress project'"
-    ],
-    "lang-update": [
-      "wp language core install fr_CA",
-      "wp language core update",
-      "wp language plugin install --all fr_CA",
-      "wp language plugin update --all"
-    ],
-    "wpcfm-init": [
-      "wp plugin activate wp-cfm",
-      "wp config pull all"
     ]
   },
   "require": {
-    "lewebsimple/acf-polylang": "*",
-    "lewebsimple/advanced-custom-fields-pro": "*",
-    "lewebsimple/gravityforms": "*",
-    "lewebsimple/ithemes-security-pro": "*",
-    "lewebsimple/js_composer": "*",
-    "lewebsimple/kaliroots": "*",
-    "wpackagist-plugin/loco-translate": "*",
-    "wpackagist-plugin/redirection": "*",
-    "wpackagist-plugin/safe-svg": "*",
-    "wpackagist-plugin/user-switching": "*",
-    "wpackagist-plugin/wp-cfm": "*"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -39,5 +39,22 @@
     ]
   },
   "require": {
+    "lewebsimple/acf-polylang": "*",
+    "lewebsimple/advanced-custom-fields-pro": "*",
+    "lewebsimple/gravityforms": "*",
+    "lewebsimple/ithemes-security-pro": "*",
+    "lewebsimple/js_composer": "*",
+    "lewebsimple/kaliroots": "*",
+    "lewebsimple/theia-smart-thumbnails-premium": "*",
+    "lewebsimple/wp-offload-ses": "*",
+    "lewebsimple/wp-rocket": "*",
+    "wpackagist-plugin/acf-better-search": "*",
+    "wpackagist-plugin/autodescription": "*",
+    "wpackagist-plugin/disable-comments": "*",
+    "wpackagist-plugin/enable-media-replace": "*",
+    "wpackagist-plugin/loco-translate": "*",
+    "wpackagist-plugin/redirection": "*",
+    "wpackagist-plugin/safe-svg": "*",
+    "wpackagist-plugin/user-switching": "*"
   }
 }

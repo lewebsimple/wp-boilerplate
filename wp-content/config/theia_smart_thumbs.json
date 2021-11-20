@@ -1,0 +1,5 @@
+{
+    "tst_general": "a:12:{s:22:\"portraitUpperByDefault\";b:1;s:19:\"default_focal_point\";s:6:\"center\";s:21:\"default_focal_point_x\";d:0.5;s:21:\"default_focal_point_y\";d:0.5;s:18:\"enlargeSmallImages\";b:0;s:12:\"cacheBusting\";b:0;s:12:\"previewSizes\";s:49:\"150x150\r\n300x300\r\n1024x1024\r\n1536x1536\r\n2048x2048\";s:16:\"enableInFrontEnd\";b:0;s:17:\"allowOtherPlugins\";b:1;s:20:\"allowThumbsReplacing\";b:0;s:28:\"enableForUndefinedImageSizes\";b:1;s:24:\"findImageIdFromImageFile\";b:1;}",
+    "tst_sizes": "a:5:{s:25:\"use_focus_point_thumbnail\";s:1:\"1\";s:22:\"use_focus_point_medium\";s:1:\"1\";s:21:\"use_focus_point_large\";s:1:\"1\";s:25:\"use_focus_point_1536x1536\";s:1:\"1\";s:25:\"use_focus_point_2048x2048\";s:1:\"1\";}",
+    ".label": "Theia Smart Thumbs"
+}

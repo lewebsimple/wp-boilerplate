@@ -1,0 +1,4 @@
+{
+    "wposes_settings": "a:14:{s:15:\"completed-setup\";s:1:\"1\";s:13:\"default-email\";s:0:\"\";s:18:\"default-email-name\";s:0:\"\";s:21:\"enable-click-tracking\";s:1:\"1\";s:20:\"enable-health-report\";s:1:\"0\";s:20:\"enable-open-tracking\";s:1:\"1\";s:31:\"health-report-custom-recipients\";s:0:\"\";s:23:\"health-report-frequency\";s:5:\"daily\";s:24:\"health-report-recipients\";s:11:\"site-admins\";s:12:\"log-duration\";s:2:\"90\";s:6:\"region\";s:9:\"us-east-1\";s:8:\"reply-to\";s:0:\"\";s:11:\"return-path\";s:0:\"\";s:12:\"send-via-ses\";s:1:\"1\";}",
+    ".label": "WP Offload SES"
+}

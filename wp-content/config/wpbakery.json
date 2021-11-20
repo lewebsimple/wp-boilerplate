@@ -1,0 +1,23 @@
+{
+    "vc_version": "6.7.0",
+    "wpb_js_default_template_post_type": "a:0:{}",
+    "wpb_js_google_fonts_subsets": "a:1:{i:0;s:5:\"latin\";}",
+    "wpb_js_gutenberg_disable": "1",
+    "wpb_js_gutter": "24",
+    "wpb_js_less_version": "6.7.0",
+    "wpb_js_margin": "35px",
+    "wpb_js_responsive_lg": "1536",
+    "wpb_js_responsive_max": "1024",
+    "wpb_js_responsive_md": "1280",
+    "wpb_js_use_custom": "1",
+    "wpb_js_vc_color": "#f7f7f7",
+    "wpb_js_vc_color_call_to_action_bg": "",
+    "wpb_js_vc_color_google_maps_bg": "",
+    "wpb_js_vc_color_hover": "#F0F0F0",
+    "wpb_js_vc_color_post_slider_caption_bg": "",
+    "wpb_js_vc_color_progress_bar_bg": "",
+    "wpb_js_vc_color_separator_border": "",
+    "wpb_js_vc_color_tab_bg": "",
+    "wpb_js_vc_color_tab_bg_active": "",
+    ".label": "WPBakery"
+}

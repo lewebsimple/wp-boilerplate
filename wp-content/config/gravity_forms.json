@@ -1,0 +1,13 @@
+{
+    "gform_enable_background_updates": "1",
+    "rg_gforms_captcha_private_key": "",
+    "rg_gforms_captcha_public_key": "",
+    "rg_gforms_captcha_type": "invisible",
+    "rg_gforms_currency": "CAD",
+    "rg_gforms_disable_css": "1",
+    "rg_gforms_enable_akismet": "",
+    "rg_gforms_enable_html5": "1",
+    "rg_gforms_key": "220902ecb42672cb5ea4b3bda6ce9a07",
+    "rg_gforms_message": "<!--GFM-->",
+    ".label": "Gravity Forms"
+}

@@ -63,6 +63,9 @@ function wpcfm_configuration_items( $items ) {
 	unset( $items['gravityformsaddon_gravityformswebapi_version'] );
 	unset( $items['rg_form_version'] );
 
+	// Polylang
+	unset( $items['polylang_licenses'] );
+
 	// The SEO Framework
 	unset( $items['autodescription-updates-cache'] );
 	unset( $items['the_seo_framework_initial_db_version'] );

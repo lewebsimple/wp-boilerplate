@@ -1,0 +1,5 @@
+{
+    "pll_dismissed_notices": "a:1:{i:0;s:6:\"wizard\";}",
+    "polylang": "a:14:{s:7:\"browser\";i:0;s:7:\"rewrite\";i:1;s:12:\"hide_default\";i:1;s:10:\"force_lang\";i:1;s:13:\"redirect_lang\";i:0;s:13:\"media_support\";i:0;s:9:\"uninstall\";i:0;s:4:\"sync\";a:10:{i:0;s:10:\"taxonomies\";i:1;s:14:\"comment_status\";i:2;s:11:\"ping_status\";i:3;s:12:\"sticky_posts\";i:4;s:9:\"post_date\";i:5;s:11:\"post_format\";i:6;s:11:\"post_parent\";i:7;s:17:\"_wp_page_template\";i:8;s:10:\"menu_order\";i:9;s:13:\"_thumbnail_id\";}s:10:\"post_types\";a:0:{}s:10:\"taxonomies\";a:0:{}s:7:\"domains\";a:0:{}s:7:\"version\";s:5:\"3.1.2\";s:16:\"first_activation\";i:1637443004;s:12:\"default_lang\";s:2:\"fr\";}",
+    ".label": "Polylang"
+}

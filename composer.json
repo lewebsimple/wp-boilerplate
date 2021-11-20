@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.1.24",
+  "version": "0.1.25",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -36,6 +36,9 @@
     ],
     "git-init": [
       "git init && git add -A && git commit -am 'Initial WordPress project'"
+    ],
+    "wpcfm-pull":  [
+      "wp plugin activate wp-cfm && wp config pull wp_cfm && wp config pull all"
     ]
   },
   "require": {
@@ -45,17 +48,21 @@
     "lewebsimple/ithemes-security-pro": "*",
     "lewebsimple/js_composer": "*",
     "lewebsimple/kaliroots": "*",
+    "lewebsimple/polylang-pro": "*",
+    "lewebsimple/polylang-wc": "*",
     "lewebsimple/theia-smart-thumbnails-premium": "*",
     "lewebsimple/wp-offload-ses": "*",
     "lewebsimple/wp-rocket": "*",
     "wpackagist-plugin/acf-better-search": "*",
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/disable-comments": "*",
+    "wpackagist-plugin/disable-dashboard-for-woocommerce": "*",
     "wpackagist-plugin/enable-media-replace": "*",
     "wpackagist-plugin/loco-translate": "*",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/safe-svg": "*",
     "wpackagist-plugin/user-switching": "*",
+    "wpackagist-plugin/woocommerce": "*",
     "wpackagist-plugin/wp-cfm": "*"
   }
 }

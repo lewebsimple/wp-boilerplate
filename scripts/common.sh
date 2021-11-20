@@ -57,6 +57,6 @@ cd ${_DIR_}/..
 # Determine local domain
 LOCAL_DOMAIN=${DOMAIN#www.}
 LOCAL_DOMAIN="${LOCAL_DOMAIN%%.*}.${LOCAL_TLD-ledevsimple.ca}"
-if [ -z "${LOCAL_DOMAIN}" ]; then
+if [ -z "${DOMAIN}" ]; then
   ERROR "Could not determine local domain. Please verify ${_DIR_}/.lwsrc"
 fi

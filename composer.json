@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -55,6 +55,7 @@
     "wpackagist-plugin/loco-translate": "*",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/safe-svg": "*",
-    "wpackagist-plugin/user-switching": "*"
+    "wpackagist-plugin/user-switching": "*",
+    "wpackagist-plugin/wp-cfm": "*"
   }
 }

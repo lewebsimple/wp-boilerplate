@@ -5,7 +5,10 @@
 !/wp-content/
 /wp-content/*
 
-# Version-controlled config
+# Scripts
+!/scripts/
+
+# WP-CFM config
 !/wp-content/config/
 
 # Version-controlled plugins

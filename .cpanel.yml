@@ -10,4 +10,4 @@ deployment:
     - '[ -z "$THEME2" ] || { yarn --cwd ./wp-content/themes/${THEME} install; }'
     - '[ -z "$THEME2" ] || { yarn --cwd ./wp-content/themes/${THEME} build; }'
     # Version-controlled plugins / themes
-    - rsync -av ./wp-content/ ${DEPLOYPATH}/wp-content/ --exclude=`git -C . ls-files --exclude-standard -oi --directory` --exclude=node_modules --dry-run
+    - rsync -av ./wp-content/ ${DEPLOYPATH}/wp-content/ --exclude=`git -C . ls-files --exclude-standard -oi --directory` --exclude=node_modules

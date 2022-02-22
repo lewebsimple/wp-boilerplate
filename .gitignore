@@ -1,5 +1,6 @@
 # Ignore everyghing except .gitignore and composer.*
 /*
+!/.cpanel.yml
 !/.gitignore
 !/composer.*
 !/wp-content/

@@ -51,6 +51,14 @@ else
   ERROR "Config not found! Please create ${_DIR_}/.lwsrc"
 fi
 
+# Check configuration
+if [ -z "$DOMAIN" ]; then
+  ERROR "Please configure DOMAIN in ${_DIR_}/.lwsrc"
+fi
+if [ -z "$REMOTE_HOST" ] || [ -z "$REMOTE_USER" ] || [ -z "$REMOTE_PATH" ]; then
+  ERROR "Please configure REMOVE_HOST / REMOVE_USER / REMOTE_PATH in ${_DIR_}/.lwsrc"
+fi
+
 # Change to project root directory
 cd ${_DIR_}/..
 

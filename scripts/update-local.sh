@@ -4,7 +4,7 @@ source "`dirname $0`/common.sh"
 
 # Backup database
 INFO "Backing up database..."
-DB_FILE="${LOCAL_DOMAIN}-${_NOW_}.sql"
+DB_FILE="${LOCAL_DOMAIN}-${_NOW_}-before-update.sql"
 TIME_START
 wp db export ${DB_FILE} > ${_LOG_} 2>&1
 TIME_STOP
@@ -30,3 +30,14 @@ TIME_START
 wp search-replace "https://${DOMAIN}" "http://${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
 wp search-replace "${DOMAIN}" "${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
 TIME_STOP
+
+# Deactivate plugins
+INFO "Deactivating plugins..."
+TIME_START
+wp plugin deactivate \
+  ithemes-security-pro \
+  wp-offload-ses \
+> ${_LOG_} 2>&1
+TIME_STOP
+
+INFO "Local development site ready: http://${LOCAL_DOMAIN}"

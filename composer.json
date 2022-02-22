@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.1.26",
+  "version": "0.2.0",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -16,6 +16,9 @@
   ],
   "prefer-stable": true,
   "config": {
+    "platform": {
+      "php": "7.4"
+    },
     "sort-packages": true
   },
   "scripts": {
@@ -37,7 +40,7 @@
     "git-init": [
       "git init && git add -A && git commit -am 'Initial WordPress project'"
     ],
-    "wpcfm-pull":  [
+    "wpcfm-pull": [
       "wp plugin activate wp-cfm && wp config pull wp_cfm && wp config pull all"
     ]
   },

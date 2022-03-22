@@ -13,8 +13,6 @@ mysql -e "CREATE DATABASE IF NOT EXISTS ${DB_NAME}"
 # Download / configure / install WordPress
 wp core download --force --skip-content
 wp core config --dbname=${DB_NAME}
-wp language core install fr_CA
-wp core install --url=${PROJECT}.ledevsimple.ca --title=${PROJECT}
 
 # Create plugins / themes / uploads directories
 mkdir -p wp-content/plugins wp-content/themes wp-content/uploads
@@ -23,3 +21,6 @@ mkdir -p wp-content/plugins wp-content/themes wp-content/uploads
 git init
 git add -A
 git commit -am 'Initial WordPress project'
+
+# Done
+echo "Site ready at http://${PROJECT}.${TLD-ledevsimple.ca}"

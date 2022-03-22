@@ -9,9 +9,6 @@
 # Scripts
 !/scripts/
 
-# WP-CFM config
-!/wp-content/config/
-
 # Version-controlled plugins
 !/wp-content/mu-plugins/
 !/wp-content/plugins/

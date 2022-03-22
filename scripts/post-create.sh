@@ -12,8 +12,8 @@ mysql -e "CREATE DATABASE IF NOT EXISTS ${DB_NAME}"
 
 # Download / configure / install WordPress
 wp core download --force --skip-content
-wp language core install fr_CA
 wp core config --dbname=${DB_NAME}
+wp language core install fr_CA
 wp core install --url=${PROJECT}.ledevsimple.ca --title=${PROJECT}
 
 # Create plugins / themes / uploads directories

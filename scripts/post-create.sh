@@ -23,7 +23,7 @@ mkdir -p wp-content/plugins wp-content/themes wp-content/uploads
 git init
 if curl -o /dev/null -f -s -I ${GIT_URL}; then
   git remote add origin ${GIT_ORIGIN}
-  ! git pull origin master
+  git fetch
   git checkout master -f
 else
   git add -A

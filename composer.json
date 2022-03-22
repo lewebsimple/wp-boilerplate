@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -19,6 +19,7 @@
     "platform": {
       "php": "7.4"
     },
+    "optimize-autoloader": true,
     "sort-packages": true
   },
   "scripts": {
@@ -39,14 +40,13 @@
     ],
     "git-init": [
       "git init && git add -A && git commit -am 'Initial WordPress project'"
-    ],
-    "wpcfm-pull": [
-      "wp plugin activate wp-cfm && wp config pull wp_cfm && wp config pull all"
     ]
   },
   "require": {
+    "lewebsimple/acf-extended-pro": "*",
     "lewebsimple/acf-polylang": "*",
     "lewebsimple/advanced-custom-fields-pro": "*",
+    "lewebsimple/gravity-forms-polylang": "*",
     "lewebsimple/gravityforms": "*",
     "lewebsimple/ithemes-security-pro": "*",
     "lewebsimple/js_composer": "*",
@@ -58,14 +58,16 @@
     "lewebsimple/wp-rocket": "*",
     "wpackagist-plugin/acf-better-search": "*",
     "wpackagist-plugin/autodescription": "*",
+    "wpackagist-plugin/clean-image-filenames": "*",
     "wpackagist-plugin/disable-comments": "*",
     "wpackagist-plugin/disable-dashboard-for-woocommerce": "*",
     "wpackagist-plugin/enable-media-replace": "*",
+    "wpackagist-plugin/ewww-image-optimizer": "*",
+    "wpackagist-plugin/hide-updates": "*",
     "wpackagist-plugin/loco-translate": "*",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/safe-svg": "*",
     "wpackagist-plugin/user-switching": "*",
-    "wpackagist-plugin/woocommerce": "*",
-    "wpackagist-plugin/wp-cfm": "*"
+    "wpackagist-plugin/woocommerce": "*"
   }
 }

@@ -1,9 +1,0 @@
-{
-    "active_plugins": "a:13:{i:1;s:29:\"gravityforms\/gravityforms.php\";i:2;s:39:\"acf-better-search\/acf-better-search.php\";i:3;s:29:\"acf-polylang\/acf-polylang.php\";i:4;s:34:\"advanced-custom-fields-pro\/acf.php\";i:5;s:35:\"autodescription\/autodescription.php\";i:6;s:37:\"disable-comments\/disable-comments.php\";i:7;s:45:\"enable-media-replace\/enable-media-replace.php\";i:8;s:27:\"js_composer\/js_composer.php\";i:9;s:23:\"loco-translate\/loco.php\";i:10;s:21:\"safe-svg\/safe-svg.php\";i:11;s:39:\"theia-smart-thumbnails-premium\/main.php\";i:12;s:33:\"user-switching\/user-switching.php\";i:13;s:17:\"wp-cfm\/wp-cfm.php\";}",
-    "auto_plugin_theme_update_emails": "a:0:{}",
-    "auto_update_core_dev": "enabled",
-    "auto_update_core_major": "enabled",
-    "auto_update_core_minor": "enabled",
-    "auto_update_plugins": "a:18:{i:0;s:29:\"acf-polylang\/acf-polylang.php\";i:1;s:39:\"acf-better-search\/acf-better-search.php\";i:2;s:34:\"advanced-custom-fields-pro\/acf.php\";i:3;s:37:\"disable-comments\/disable-comments.php\";i:4;s:45:\"enable-media-replace\/enable-media-replace.php\";i:5;s:29:\"gravityforms\/gravityforms.php\";i:6;s:45:\"ithemes-security-pro\/ithemes-security-pro.php\";i:7;s:23:\"loco-translate\/loco.php\";i:8;s:27:\"redirection\/redirection.php\";i:9;s:21:\"safe-svg\/safe-svg.php\";i:10;s:35:\"autodescription\/autodescription.php\";i:11;s:39:\"theia-smart-thumbnails-premium\/main.php\";i:12;s:33:\"user-switching\/user-switching.php\";i:13;s:27:\"woocommerce\/woocommerce.php\";i:14;s:33:\"wp-offload-ses\/wp-offload-ses.php\";i:15;s:23:\"wp-rocket\/wp-rocket.php\";i:16;s:17:\"wp-cfm\/wp-cfm.php\";i:17;s:27:\"js_composer\/js_composer.php\";}",
-    ".label": "Plugins"
-}

@@ -3,6 +3,8 @@ set -e
 
 PROJECT=${PWD##*/}
 DB_NAME="wp_${PROJECT/-/_}"
+GIT_URL="https://gitlab.ledevsimple.ca/sites/${PROJECT}.git"
+GIT_ORIGIN="ssh://git@gitlab.ledevsimple.ca:222/sites/${PROJECT}.git"
 
 # Rename project
 sed -i -e "s/wp-boilerplate/${PROJECT}/g" .cpanel.yml .gitignore composer.json
@@ -19,8 +21,14 @@ mkdir -p wp-content/plugins wp-content/themes wp-content/uploads
 
 # Initialize git repository
 git init
-git add -A
-git commit -am 'Initial WordPress project'
+if curl -o /dev/null -f -s -I ${GIT_URL}; then
+  git remote add origin ${GIT_ORIGIN}
+  ! git pull origin master
+  git checkout master -f
+else
+  git add -A
+  git commit -am 'Initial WordPress project'
+fi
 
 # Done
 echo "Site ready at http://${PROJECT}.${TLD-ledevsimple.ca}"

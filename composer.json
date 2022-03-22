@@ -24,22 +24,7 @@
   },
   "scripts": {
     "post-create-project-cmd": [
-      "sed -i -e \"s/wp-boilerplate/${PWD##*/}/g\" composer.json .gitignore",
-      "mkdir -p wp-content/plugins wp-content/themes wp-content/uploads",
-      "wp core download --force --skip-content",
-      "@db-create",
-      "@core-init",
-      "@git-init"
-    ],
-    "core-init": [
-      "wp core config --dbname=wp_${PWD##*/}",
-      "wp core install --url=${PWD##*/}.ledevsimple.ca --title=${PWD##*/}"
-    ],
-    "db-create": [
-      "mysql -e \"CREATE DATABASE IF NOT EXISTS wp_${PWD##*/}\""
-    ],
-    "git-init": [
-      "git init && git add -A && git commit -am 'Initial WordPress project'"
+      "./scripts/post-create.sh"
     ]
   },
   "require": {

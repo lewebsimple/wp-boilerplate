@@ -21,14 +21,14 @@ mkdir -p wp-content/plugins wp-content/themes wp-content/uploads
 
 # Initialize git repository
 git init
-if curl -o /dev/null -f -s -I ${GIT_URL}; then
-  git remote add origin ${GIT_ORIGIN}
-  git fetch
-  git checkout master -f
-  composer update
+git remote add origin ${GIT_ORIGIN} > /dev/null 2>&1
+git fetch > /dev/null 2>&1 || error_code=$?
+if [ "${error_code}" -eq 0 ]; then
+  git checkout master -f > /dev/null 2>&1
 else
-  git add -A
-  git commit -am 'Initial WordPress project'
+  git remote remove origin > /dev/null 2>&1
+  git add -A > /dev/null 2>&1
+  git commit -am 'Initial WordPress project' > /dev/null 2>&1
 fi
 
 # Done

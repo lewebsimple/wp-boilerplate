@@ -1,4 +1,5 @@
-#DOMAIN=www.example.com
+#LOCAL_DOMAIN=example.ledevsimple.ca
+#REMOTE_DOMAIN=www.example.com
 #REMOTE_HOST=cpanel5.lewebsimple.ca
 #REMOTE_USER=example
 #REMOTE_PATH=/home/${REMOTE_USER}/public_html

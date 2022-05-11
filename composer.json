@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -37,7 +37,6 @@
     "lewebsimple/js_composer": "*",
     "lewebsimple/kaliroots": "*",
     "lewebsimple/polylang-pro": "*",
-    "lewebsimple/polylang-wc": "*",
     "lewebsimple/theia-smart-thumbnails-premium": "*",
     "lewebsimple/wp-offload-ses": "*",
     "lewebsimple/wp-rocket": "*",
@@ -45,14 +44,15 @@
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/clean-image-filenames": "*",
     "wpackagist-plugin/disable-comments": "*",
-    "wpackagist-plugin/disable-dashboard-for-woocommerce": "*",
+    "wpackagist-plugin/emails-catch-all": "*",
     "wpackagist-plugin/enable-media-replace": "*",
-    "wpackagist-plugin/ewww-image-optimizer": "*",
     "wpackagist-plugin/hide-updates": "*",
     "wpackagist-plugin/loco-translate": "*",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/safe-svg": "*",
+    "wpackagist-plugin/simple-custom-post-order": "*",
+    "wpackagist-plugin/tinymce-advanced": "*",
     "wpackagist-plugin/user-switching": "*",
-    "wpackagist-plugin/woocommerce": "*"
+    "wpackagist-plugin/webp-converter-for-media": "*"
   }
 }

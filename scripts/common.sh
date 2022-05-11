@@ -52,8 +52,8 @@ else
 fi
 
 # Check configuration
-if [ -z "$DOMAIN" ]; then
-  ERROR "Please configure DOMAIN in ${_DIR_}/.lwsrc"
+if [ -z "${REMOTE_DOMAIN}" ]; then
+  ERROR "Please configure REMOTE_DOMAIN in ${_DIR_}/.lwsrc"
 fi
 if [ -z "$REMOTE_HOST" ] || [ -z "$REMOTE_USER" ] || [ -z "$REMOTE_PATH" ]; then
   ERROR "Please configure REMOVE_HOST / REMOVE_USER / REMOTE_PATH in ${_DIR_}/.lwsrc"
@@ -63,8 +63,10 @@ fi
 cd ${_DIR_}/..
 
 # Determine local domain
-LOCAL_DOMAIN=${DOMAIN#www.}
-LOCAL_DOMAIN="${LOCAL_DOMAIN%%.*}.${LOCAL_TLD-ledevsimple.ca}"
-if [ -z "${DOMAIN}" ]; then
+if [ ! -z "${LOCAL_DOMAIN}" ]; then
+  LOCAL_DOMAIN=${REMOTE_DOMAIN#www.}
+  LOCAL_DOMAIN="${LOCAL_DOMAIN%%.*}.${LOCAL_TLD-ledevsimple.ca}"
+fi
+if [ -z "${LOCAL_DOMAIN}" ]; then
   ERROR "Could not determine local domain. Please verify ${_DIR_}/.lwsrc"
 fi

@@ -17,7 +17,7 @@ TIME_STOP
 
 # Synchronize database
 INFO "Synchronizing database..."
-DB_FILE="${DOMAIN}-${_NOW_}.sql"
+DB_FILE="${REMOTE_DOMAIN}-${_NOW_}.sql"
 TIME_START
 ssh -p 2222 ${REMOTE_USER}@${REMOTE_HOST} "cd ${REMOTE_PATH} && wp --allow-root --skip-plugins --skip-themes db export ${DB_FILE}" > ${_LOG_} 2>&1
 ssh -p 2222 ${REMOTE_USER}@${REMOTE_HOST} "cat ${REMOTE_PATH}/${DB_FILE}" | wp db import - > ${_LOG_} 2>&1
@@ -25,10 +25,10 @@ ssh -p 2222 ${REMOTE_USER}@${REMOTE_HOST} "rm -f ${REMOTE_PATH}/${DB_FILE}" > ${
 TIME_STOP
 
 # Replace domain
-INFO "Replacing domain ${DOMAIN} => ${LOCAL_DOMAIN}..."
+INFO "Replacing domain ${REMOTE_DOMAIN} => ${LOCAL_DOMAIN}..."
 TIME_START
-wp search-replace "https://${DOMAIN}" "http://${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
-wp search-replace "${DOMAIN}" "${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
+wp search-replace "https://${REMOTE_DOMAIN}" "http://${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
+wp search-replace "${REMOTE_DOMAIN}" "${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
 TIME_STOP
 
 # Deactivate plugins

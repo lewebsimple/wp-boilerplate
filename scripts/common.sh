@@ -2,7 +2,7 @@
 set -e
 _DIR_=`dirname "$(readlink -f "$0")"`
 _FILE_=`basename $0`
-_LOG_="/dev/null"
+_LOG_=${SHELL_LOG:-/dev/null}
 _NOW_=`date +"%Y-%m-%d@%H:%M"`
 
 # Helpers
@@ -63,7 +63,7 @@ fi
 cd ${_DIR_}/..
 
 # Determine local domain
-if [ ! -z "${LOCAL_DOMAIN}" ]; then
+if [ -z "${LOCAL_DOMAIN}" ]; then
   LOCAL_DOMAIN=${REMOTE_DOMAIN#www.}
   LOCAL_DOMAIN="${LOCAL_DOMAIN%%.*}.${LOCAL_TLD-ledevsimple.ca}"
 fi

@@ -28,7 +28,6 @@
     ]
   },
   "require": {
-    "lewebsimple/acf-extended-pro": "*",
     "lewebsimple/acf-polylang": "*",
     "lewebsimple/advanced-custom-fields-pro": "*",
     "lewebsimple/gravity-forms-polylang": "*",
@@ -39,20 +38,19 @@
     "lewebsimple/polylang-pro": "*",
     "lewebsimple/theia-smart-thumbnails-premium": "*",
     "lewebsimple/wp-offload-ses": "*",
-    "lewebsimple/wp-rocket": "*",
-    "wpackagist-plugin/acf-better-search": "*",
-    "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/clean-image-filenames": "*",
     "wpackagist-plugin/disable-comments": "*",
-    "wpackagist-plugin/emails-catch-all": "*",
     "wpackagist-plugin/enable-media-replace": "*",
     "wpackagist-plugin/hide-updates": "*",
+    "wpackagist-plugin/litespeed-cache": "*",
     "wpackagist-plugin/loco-translate": "*",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/safe-svg": "*",
     "wpackagist-plugin/simple-custom-post-order": "*",
+    "wpackagist-plugin/so-clean-up-wp-seo": "*",
     "wpackagist-plugin/tinymce-advanced": "*",
     "wpackagist-plugin/user-switching": "*",
-    "wpackagist-plugin/webp-converter-for-media": "*"
+    "wpackagist-plugin/webp-converter-for-media": "*",
+    "wpackagist-plugin/wordpress-seo": "*"
   }
 }

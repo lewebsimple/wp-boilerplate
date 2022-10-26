@@ -3,11 +3,11 @@ set -e
 source "`dirname $0`/common.sh"
 
 # Backup database
-INFO "Backing up database..."
-DB_FILE="${LOCAL_DOMAIN}-${_NOW_}-before-update.sql"
-TIME_START
-wp db export ${DB_FILE} > ${_LOG_} 2>&1
-TIME_STOP
+#INFO "Backing up database..."
+#DB_FILE="${LOCAL_DOMAIN}-${_NOW_}-before-update.sql"
+#TIME_START
+#wp db export ${DB_FILE} > ${_LOG_} 2>&1
+#TIME_STOP
 
 # Synchronize uploads
 INFO "Synchronizing uploads..."
@@ -28,7 +28,8 @@ TIME_STOP
 INFO "Replacing domain ${REMOTE_DOMAIN} => ${LOCAL_DOMAIN}..."
 TIME_START
 wp search-replace "https://${REMOTE_DOMAIN}" "http://${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
-wp search-replace "${REMOTE_DOMAIN}" "${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
+wp search-replace "https:\/\/${REMOTE_DOMAIN}" "http:\/\/${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
+wp search-replace "https%3A%2F%2F${REMOTE_DOMAIN}" "http%3A%2F%2F${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
 TIME_STOP
 
 # Deactivate plugins
@@ -36,7 +37,7 @@ INFO "Deactivating plugins..."
 TIME_START
 wp plugin deactivate \
   ithemes-security-pro \
-  wp-offload-ses \
+  litespeed-cache \
 > ${_LOG_} 2>&1
 TIME_STOP
 

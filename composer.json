@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.3.9",
+  "version": "0.4.0",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -17,10 +17,13 @@
   "prefer-stable": true,
   "config": {
     "platform": {
-      "php": "7.4"
+      "php": "8.2"
     },
     "optimize-autoloader": true,
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/installers": true
+    }
   },
   "scripts": {
     "post-create-project-cmd": [

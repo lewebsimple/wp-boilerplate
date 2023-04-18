@@ -1,4 +1,4 @@
-#LOCAL_DOMAIN=example.${LOCAL_TLD-ledevsimple.ca}
+#LOCAL_DOMAIN=example.${LOCAL_TLD-local}
 #REMOTE_DOMAIN=www.example.com
 #REMOTE_HOST=cpanel5.lewebsimple.ca
 #REMOTE_USER=example

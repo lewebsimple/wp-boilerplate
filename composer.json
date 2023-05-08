@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -51,7 +51,6 @@
     "wpackagist-plugin/safe-svg": "*",
     "wpackagist-plugin/simple-custom-post-order": "*",
     "wpackagist-plugin/so-clean-up-wp-seo": "*",
-    "wpackagist-plugin/tinymce-advanced": "*",
     "wpackagist-plugin/user-switching": "*",
     "wpackagist-plugin/webp-converter-for-media": "*",
     "wpackagist-plugin/wordpress-seo": "*"

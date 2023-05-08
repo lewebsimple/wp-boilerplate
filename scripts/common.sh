@@ -65,7 +65,7 @@ cd ${_DIR_}/..
 # Determine local domain
 if [ -z "${LOCAL_DOMAIN}" ]; then
   LOCAL_DOMAIN=${REMOTE_DOMAIN#www.}
-  LOCAL_DOMAIN="${LOCAL_DOMAIN%%.*}.${LOCAL_TLD-local}"
+  LOCAL_DOMAIN="${LOCAL_DOMAIN%%.*}.${TLD-ledevsimple.ca}"
 fi
 if [ -z "${LOCAL_DOMAIN}" ]; then
   ERROR "Could not determine local domain. Please verify ${_DIR_}/.lwsrc"

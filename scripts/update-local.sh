@@ -38,7 +38,7 @@ TIME_START
 wp plugin deactivate \
   ithemes-security-pro \
   litespeed-cache \
-> ${_LOG_} 2>&1
+  > ${_LOG_} 2>&1 || true \
 TIME_STOP
 
 INFO "Local development site ready: http://${LOCAL_DOMAIN}"

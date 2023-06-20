@@ -25,10 +25,14 @@ git remote add origin ${GIT_ORIGIN} > /dev/null 2>&1
 git fetch > /dev/null 2>&1 || error_code=$?
 if [ "${error_code-0}" -eq 0 ]; then
   git checkout master -f > /dev/null 2>&1
+  rm -rf wp-content/plugins/* > /dev/null 2>&1
+  rm -rf wp-content/themes/* > /dev/null 2>&1
+  git reset --hard HEAD > /dev/null 2>&1
+  composer install > /dev/null 2>&1
 else
   git remote remove origin > /dev/null 2>&1
   git add -A > /dev/null 2>&1
-  git commit -am 'Initial WordPress project' > /dev/null 2>&1
+  git commit -am 'chore: initial wp-boilerplate project' > /dev/null 2>&1
 fi
 
 # Done

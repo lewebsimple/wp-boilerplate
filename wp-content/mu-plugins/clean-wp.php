@@ -8,7 +8,7 @@ add_action( 'admin_bar_menu', function ( $menu ) {
 	$menu->remove_node( 'customize' ); // Customize
 //	$menu->remove_node( 'dashboard' ); // Dashboard
 //	$menu->remove_node( 'edit' ); // Edit
-//	$menu->remove_node( 'menus' ); // Menus
+	$menu->remove_node( 'menus' ); // Menus
 //	$menu->remove_node( 'new-content' ); // New Content
 	$menu->remove_node( 'search' ); // Search
 //	 $menu->remove_node('site-name'); // Site Name
@@ -19,7 +19,6 @@ add_action( 'admin_bar_menu', function ( $menu ) {
 //	$menu->remove_node( 'widgets' ); // Widgets
 	$menu->remove_node( 'wp-logo' ); // WordPress Logo
 }, 999 );
-
 
 /**
  * Dashboard widgets
@@ -102,4 +101,3 @@ add_action( 'init', function () {
 	remove_role( 'contributor' );
 	remove_role( 'subscriber' );
 } );
-

@@ -21,19 +21,19 @@ mkdir -p wp-content/mu-plugins wp-content/plugins wp-content/themes wp-content/u
 
 # Initialize git repository
 git init
-git remote add gitlab ${GIT_ORIGIN} > /dev/null 2>&1
-git fetch > /dev/null 2>&1 || error_code=$?
+git remote add gitlab ${GIT_ORIGIN}
+git fetch || error_code=$?
 if [ "${error_code-0}" -eq 0 ]; then
-  git checkout main -f > /dev/null 2>&1
-  rm -rf wp-content/mu-plugins/* > /dev/null 2>&1
-  rm -rf wp-content/plugins/* > /dev/null 2>&1
-  rm -rf wp-content/themes/* > /dev/null 2>&1
-  git reset --hard HEAD > /dev/null 2>&1
-  composer install > /dev/null 2>&1
+  git checkout main -f
+  rm -rf wp-content/mu-plugins/*
+  rm -rf wp-content/plugins/*
+  rm -rf wp-content/themes/*
+  git reset --hard HEAD
+  composer install
 else
-  git remote remove gitlab > /dev/null 2>&1
-  git add -A > /dev/null 2>&1
-  git commit -am 'chore: initial wp-boilerplate project' > /dev/null 2>&1
+  git remote remove gitlab
+  git add -A
+  git commit -am 'chore: initial wp-boilerplate project'
 fi
 
 # Done

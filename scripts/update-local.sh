@@ -27,9 +27,7 @@ TIME_STOP
 # Replace domain
 INFO "Replacing domain ${REMOTE_DOMAIN} => ${LOCAL_DOMAIN}..."
 TIME_START
-wp search-replace "https://${REMOTE_DOMAIN}" "http://${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
-wp search-replace "https:\/\/${REMOTE_DOMAIN}" "http:\/\/${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
-wp search-replace "https%3A%2F%2F${REMOTE_DOMAIN}" "http%3A%2F%2F${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
+wp search-replace "${REMOTE_DOMAIN}" "${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
 TIME_STOP
 
 # Deactivate plugins
@@ -42,4 +40,4 @@ wp plugin deactivate \
   > ${_LOG_} 2>&1 || true \
 TIME_STOP
 
-INFO "Local development site ready: http://${LOCAL_DOMAIN}"
+INFO "Local development site ready: https://${LOCAL_DOMAIN}"

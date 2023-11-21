@@ -34,4 +34,4 @@ wp core download --force --skip-content
 wp core config --dbname=${DB_NAME}
 
 # Done
-echo "Site ready at http://${PROJECT}.${TLD-ledevsimple.ca}"
+echo "Site ready at https://${PROJECT}.${TLD-ledevsimple.ca}"

@@ -13,8 +13,9 @@
 !/wp-content/mu-plugins/
 !/wp-content/plugins/
 /wp-content/plugins/*
+!/wp-content/plugins/.gitkeep
 
 # Version-controlled themes
 !/wp-content/themes/
 /wp-content/themes/*
-!/wp-content/themes/wp-boilerplate
+!/wp-content/themes/.gitkeep

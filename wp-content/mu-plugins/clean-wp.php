@@ -3,34 +3,41 @@
 /**
  * Admin bar
  */
-add_action( 'admin_bar_menu', function ( $menu ) {
-	$menu->remove_node( 'comments' ); // Comments
-	$menu->remove_node( 'customize' ); // Customize
-//	$menu->remove_node( 'dashboard' ); // Dashboard
-//	$menu->remove_node( 'edit' ); // Edit
-	$menu->remove_node( 'menus' ); // Menus
-//	$menu->remove_node( 'new-content' ); // New Content
-	$menu->remove_node( 'search' ); // Search
-//	 $menu->remove_node('site-name'); // Site Name
-	$menu->remove_node( 'themes' ); // Themes
-	$menu->remove_node( 'updates' ); // Updates
-	$menu->remove_node( 'view-site' ); // Visit Site
-//	$menu->remove_node( 'view' ); // View
-//	$menu->remove_node( 'widgets' ); // Widgets
-	$menu->remove_node( 'wp-logo' ); // WordPress Logo
-}, 999 );
+add_action(
+	'admin_bar_menu',
+	function ( $menu ) {
+		$menu->remove_node( 'comments' ); // Comments
+		$menu->remove_node( 'customize' ); // Customize
+		//  $menu->remove_node( 'dashboard' ); // Dashboard
+		//  $menu->remove_node( 'edit' ); // Edit
+		$menu->remove_node( 'menus' ); // Menus
+		//  $menu->remove_node( 'new-content' ); // New Content
+		$menu->remove_node( 'search' ); // Search
+		//   $menu->remove_node('site-name'); // Site Name
+		$menu->remove_node( 'themes' ); // Themes
+		$menu->remove_node( 'updates' ); // Updates
+		$menu->remove_node( 'view-site' ); // Visit Site
+		//  $menu->remove_node( 'view' ); // View
+		//  $menu->remove_node( 'widgets' ); // Widgets
+		$menu->remove_node( 'wp-logo' ); // WordPress Logo
+	},
+	999
+);
 
 /**
  * Dashboard widgets
  */
-add_action( 'wp_dashboard_setup', function () {
-	global $wp_meta_boxes;
-	unset( $wp_meta_boxes['dashboard']['normal']['core']['dashboard_activity'] ); // Activity
-//	unset( $wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now'] ); // At a Glance
-//	unset( $wp_meta_boxes['dashboard']['normal']['core']['dashboard_site_health'] ); // Site Health Status
-	unset( $wp_meta_boxes['dashboard']['side']['core']['dashboard_primary'] ); // WordPress Events and News
-	unset( $wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press'] ); // Quick Draft
-} );
+add_action(
+	'wp_dashboard_setup',
+	function () {
+		global $wp_meta_boxes;
+		unset( $wp_meta_boxes['dashboard']['normal']['core']['dashboard_activity'] ); // Activity
+		//  unset( $wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now'] ); // At a Glance
+		//  unset( $wp_meta_boxes['dashboard']['normal']['core']['dashboard_site_health'] ); // Site Health Status
+		unset( $wp_meta_boxes['dashboard']['side']['core']['dashboard_primary'] ); // WordPress Events and News
+		unset( $wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press'] ); // Quick Draft
+	}
+);
 
 
 /**
@@ -83,10 +90,13 @@ if ( ! defined( 'DISALLOW_FILE_EDIT' ) ) {
 /**
  * Gutenberg
  */
-add_action( 'wp_enqueue_scripts', function () {
-	wp_deregister_style( 'global-styles' );
-	wp_deregister_style( 'wp-block-library' );
-} );
+add_action(
+	'wp_enqueue_scripts',
+	function () {
+		wp_deregister_style( 'global-styles' );
+		wp_deregister_style( 'wp-block-library' );
+	}
+);
 
 
 add_filter( 'use_block_editor_for_post_type', '__return_false', 100 );
@@ -96,8 +106,11 @@ remove_action( 'try_gutenberg_panel', 'wp_try_gutenberg_panel' );
 /**
  * User roles
  */
-add_action( 'init', function () {
-	remove_role( 'author' );
-	remove_role( 'contributor' );
-	remove_role( 'subscriber' );
-} );
+add_action(
+	'init',
+	function () {
+		remove_role( 'author' );
+		remove_role( 'contributor' );
+		remove_role( 'subscriber' );
+	}
+);

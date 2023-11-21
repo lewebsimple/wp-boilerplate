@@ -27,13 +27,13 @@ TIME_STOP
 # Replace domain
 INFO "Replacing domain ${REMOTE_DOMAIN} => ${LOCAL_DOMAIN}..."
 TIME_START
-wp search-replace "${REMOTE_DOMAIN}" "${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
+wp --skip-plugins --skip-themes search-replace "${REMOTE_DOMAIN}" "${LOCAL_DOMAIN}" --all-tables > ${_LOG_} 2>&1
 TIME_STOP
 
 # Deactivate plugins
 INFO "Deactivating plugins..."
 TIME_START
-wp plugin deactivate \
+wp --skip-plugins --skip-themes plugin deactivate \
   ithemes-security-pro \
   litespeed-cache \
   wp-offload-ses \

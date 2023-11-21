@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "type": "project",
   "license": "MIT",
   "repositories": [
@@ -45,14 +45,12 @@
     "wpackagist-plugin/disable-comments": "*",
     "wpackagist-plugin/enable-media-replace": "*",
     "wpackagist-plugin/hide-updates": "*",
-    "wpackagist-plugin/litespeed-cache": "*",
     "wpackagist-plugin/loco-translate": "*",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/safe-svg": "*",
     "wpackagist-plugin/simple-custom-post-order": "*",
     "wpackagist-plugin/so-clean-up-wp-seo": "*",
     "wpackagist-plugin/user-switching": "*",
-    "wpackagist-plugin/webp-converter-for-media": "*",
     "wpackagist-plugin/wordpress-seo": "*"
   }
 }

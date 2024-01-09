@@ -40,4 +40,10 @@ wp --skip-plugins --skip-themes plugin deactivate \
   > ${_LOG_} 2>&1 || true \
 TIME_STOP
 
+# Flush permalinks
+INFO "Flushing permalinks..."
+TIME_START
+wp rewrite flush --hard > ${_LOG_} 2>&1
+TIME_STOP
+
 INFO "Local development site ready: https://${LOCAL_DOMAIN}"

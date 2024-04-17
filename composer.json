@@ -1,7 +1,7 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.4.9",
+  "version": "0.4.10",
   "type": "project",
   "license": "MIT",
   "repositories": [

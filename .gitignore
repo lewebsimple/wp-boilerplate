@@ -1,4 +1,4 @@
-# Ignore everyghing except .gitignore and composer.*
+# Project-specific files
 /*
 !/.cpanel.yml
 !/.gitignore

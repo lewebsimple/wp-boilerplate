@@ -28,16 +28,9 @@
   "scripts": {
     "post-create-project-cmd": [
       "./scripts/post-create.sh"
-    ],
-    "post-install-cmd": [
-      "composer install -d wp-content/plugins/s3-uploads --ignore-platform-req=ext-pcov"
-    ],
-    "post-update-cmd": [
-      "composer install -d wp-content/plugins/s3-uploads --ignore-platform-req=ext-pcov"
     ]
   },
   "require": {
-    "humanmade/s3-uploads": "*",
     "lewebsimple/acf-polylang": "*",
     "lewebsimple/advanced-custom-fields-pro": "*",
     "lewebsimple/gravity-forms-polylang": "*",

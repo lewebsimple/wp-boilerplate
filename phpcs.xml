@@ -26,6 +26,7 @@
       <exclude name="Squiz.PHP.CommentedOutCode.Found"/>
       <exclude name="Squiz.PHP.DisallowMultipleAssignments.Found"/>
       <exclude name="Squiz.PHP.DisallowMultipleAssignments.FoundInControlStructure"/>
+      <exclude name="Squiz.PHP.EmbeddedPhp.ShortOpenEchoNoSemicolon"/>
       <exclude name="Squiz.Strings.DoubleQuoteUsage.NotRequired"/>
       <exclude name="Universal.Files.SeparateFunctionsFromOO.Mixed"/>
       <exclude name="Universal.Operators.DisallowShortTernary.Found"/>

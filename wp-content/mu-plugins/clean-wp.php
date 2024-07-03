@@ -6,8 +6,8 @@ function clean_wp_admin_bar( $menu ) {
 	$menu->remove_node( 'comments' ); // Comments
 	$menu->remove_node( 'customize' ); // Customize
 	// $menu->remove_node( 'dashboard' ); // Dashboard
-	$menu->remove_node( 'edit' ); // Edit
-	$menu->remove_node( 'menus' ); // Menus
+	// $menu->remove_node( 'edit' ); // Edit
+	// $menu->remove_node( 'menus' ); // Menus
 	// $menu->remove_node( 'new-content' ); // New Content
 	$menu->remove_node( 'search' ); // Search
 	// $menu->remove_node('site-name'); // Site Name

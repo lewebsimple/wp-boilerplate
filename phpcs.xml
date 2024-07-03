@@ -38,6 +38,7 @@
       <exclude name="WordPress.DB.SlowDBQuery.slow_db_query_meta_query"/>
       <exclude name="WordPress.DB.SlowDBQuery.slow_db_query_meta_value"/>
       <exclude name="WordPress.DB.SlowDBQuery.slow_db_query_tax_query"/>
+      <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
       <exclude name="WordPress.NamingConventions.ValidHookName.UseUnderscores"/>
       <exclude name="WordPress.PHP.DiscouragedPHPFunctions.obfuscation_base64_encode"/>
       <exclude name="WordPress.PHP.StrictInArray.MissingTrueStrict"/>

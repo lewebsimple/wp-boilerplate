@@ -31,6 +31,8 @@
     ]
   },
   "require": {
+    "lewebsimple/acf-address": "*",
+    "lewebsimple/acf-phone": "*",
     "lewebsimple/acf-polylang": "*",
     "lewebsimple/advanced-custom-fields-pro": "*",
     "lewebsimple/gravity-forms-polylang": "*",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e106e90a7e4d69a23512455c400b587",
+    "content-hash": "639af66573ae3d8442b303d45ba7185f",
     "packages": [
         {
             "name": "composer/installers",
@@ -298,23 +298,6 @@
             },
             "type": "wordpress-plugin",
             "time": "2023-09-18T16:12:55+00:00"
-        },
-        {
-            "name": "lewebsimple/js_composer",
-            "version": "v7.7.2",
-            "source": {
-                "type": "git",
-                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/js_composer.git",
-                "reference": "151fa00d189fdcfd57a5b4308a92cb53f48978cd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/js_composer/lewebsimple-js_composer-v7.7.2-23854b.zip",
-                "reference": "151fa00d189fdcfd57a5b4308a92cb53f48978cd",
-                "shasum": "8a4dc22538cbf895174a07cbaef623666dca8a47"
-            },
-            "type": "wordpress-plugin",
-            "time": "2024-06-25T14:21:27+00:00"
         },
         {
             "name": "lewebsimple/kaliroots",

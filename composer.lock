@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "639af66573ae3d8442b303d45ba7185f",
+    "content-hash": "c302a87f7456e1500968b0813cc7cc0d",
     "packages": [
         {
             "name": "composer/installers",
@@ -213,20 +213,20 @@
         },
         {
             "name": "lewebsimple/advanced-custom-fields-pro",
-            "version": "v6.3.3",
+            "version": "v6.3.5",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/advanced-custom-fields-pro.git",
-                "reference": "490e2a88f6611a8b9a5d402f50825b0a7f3779e1"
+                "reference": "523fd19557f1fdb7e9546befc0fd26ff2803b17b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/advanced-custom-fields-pro/lewebsimple-advanced-custom-fields-pro-v6.3.3-968bc5.zip",
-                "reference": "490e2a88f6611a8b9a5d402f50825b0a7f3779e1",
-                "shasum": "4f2fc822da754e4e74e1a9a55e9a14db7d3986ad"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/advanced-custom-fields-pro/lewebsimple-advanced-custom-fields-pro-v6.3.5-87d2f1.zip",
+                "reference": "523fd19557f1fdb7e9546befc0fd26ff2803b17b",
+                "shasum": "cfb168cd6beb96d4e8676994ccc065c6129c4864"
             },
             "type": "wordpress-plugin",
-            "time": "2024-07-02T13:09:59+00:00"
+            "time": "2024-08-01T15:18:08+00:00"
         },
         {
             "name": "lewebsimple/gravity-forms-polylang",
@@ -250,20 +250,20 @@
         },
         {
             "name": "lewebsimple/gravityforms",
-            "version": "v2.8.13",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/gravityforms.git",
-                "reference": "6b520073140327e3de80abf39f9f227f9cb33fc1"
+                "reference": "d7481c2f72670a24f529d7b902f323ebc43f5542"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/gravityforms/lewebsimple-gravityforms-v2.8.13-6e09e1.zip",
-                "reference": "6b520073140327e3de80abf39f9f227f9cb33fc1",
-                "shasum": "38931928ece58de8babe6cebb54cfed1fea879e2"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/gravityforms/lewebsimple-gravityforms-v2.8.17-362bae.zip",
+                "reference": "d7481c2f72670a24f529d7b902f323ebc43f5542",
+                "shasum": "6c6eb90759e454a6730aed247f97c3ea2e815b20"
             },
             "type": "wordpress-plugin",
-            "time": "2024-06-27T12:13:22+00:00"
+            "time": "2024-08-27T12:13:52+00:00"
         },
         {
             "name": "lewebsimple/gravityformsturnstile",
@@ -301,37 +301,37 @@
         },
         {
             "name": "lewebsimple/kaliroots",
-            "version": "v0.9.10",
+            "version": "v0.9.11",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-themes/kaliroots.git",
-                "reference": "e1e29d4c5defaa2a8f688ec25297ebddfa281a95"
+                "reference": "5c71b5b1c6a0f9b68ef51a6f8fb29767837e983a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/kaliroots/lewebsimple-kaliroots-v0.9.10-517fd0.zip",
-                "reference": "e1e29d4c5defaa2a8f688ec25297ebddfa281a95",
-                "shasum": "ff538c68af412f7ae4d04662d1368d64c2e71e0c"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/kaliroots/lewebsimple-kaliroots-v0.9.11-26574c.zip",
+                "reference": "5c71b5b1c6a0f9b68ef51a6f8fb29767837e983a",
+                "shasum": "f3000490d2b1b50768cb70992ee0f2baf29673c4"
             },
             "type": "wordpress-theme",
-            "time": "2024-06-19T12:09:17+00:00"
+            "time": "2024-07-31T18:42:26+00:00"
         },
         {
             "name": "lewebsimple/polylang-pro",
-            "version": "v3.6.3",
+            "version": "v3.6.4",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/polylang-pro.git",
-                "reference": "9709edf6053503a30c7df86d32bc45e1674d73b5"
+                "reference": "c3a50c159ff83651a0a0042526557f46d5639602"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/polylang-pro/lewebsimple-polylang-pro-v3.6.3-61a963.zip",
-                "reference": "9709edf6053503a30c7df86d32bc45e1674d73b5",
-                "shasum": "34404baea256e32bdbf5d7355b7814e954dabc4f"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/polylang-pro/lewebsimple-polylang-pro-v3.6.4-23e743.zip",
+                "reference": "c3a50c159ff83651a0a0042526557f46d5639602",
+                "shasum": "950b8957e543140c814894b58bf2aa24b62b776c"
             },
             "type": "wordpress-plugin",
-            "time": "2024-06-18T13:47:06+00:00"
+            "time": "2024-07-29T15:53:44+00:00"
         },
         {
             "name": "lewebsimple/theia-smart-thumbnails-premium",
@@ -349,23 +349,6 @@
             },
             "type": "wordpress-plugin",
             "time": "2024-02-26T18:35:09+00:00"
-        },
-        {
-            "name": "lewebsimple/wp-offload-ses",
-            "version": "v1.5",
-            "source": {
-                "type": "git",
-                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/wp-offload-ses.git",
-                "reference": "ab0eefefabed4a5a83eea00efac6ac4fbfe72a29"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/wp-offload-ses/lewebsimple-wp-offload-ses-v1.5-896d96.zip",
-                "reference": "ab0eefefabed4a5a83eea00efac6ac4fbfe72a29",
-                "shasum": "fe55d69f1d495b81ee36a731f7da5868a14dfafe"
-            },
-            "type": "wordpress-plugin",
-            "time": "2020-04-22T20:25:44+00:00"
         },
         {
             "name": "wpackagist-plugin/acf-options-for-polylang",
@@ -441,15 +424,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "7.7.0",
+            "version": "7.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/7.7.0"
+                "reference": "tags/7.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.7.7.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.7.8.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -477,15 +460,15 @@
         },
         {
             "name": "wpackagist-plugin/loco-translate",
-            "version": "2.6.10",
+            "version": "2.6.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/loco-translate/",
-                "reference": "tags/2.6.10"
+                "reference": "tags/2.6.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.6.10.zip"
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.6.11.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -495,15 +478,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.4.2",
+            "version": "5.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.4.2"
+                "reference": "tags/5.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.4.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.5.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -567,15 +550,15 @@
         },
         {
             "name": "wpackagist-plugin/user-switching",
-            "version": "1.7.3",
+            "version": "1.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/user-switching/",
-                "reference": "tags/1.7.3"
+                "reference": "tags/1.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.7.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.8.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -585,21 +568,39 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "23.0",
+            "version": "23.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/23.0"
+                "reference": "tags/23.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.23.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.23.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-ses",
+            "version": "1.7.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-ses/",
+                "reference": "tags/1.7.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-ses.1.7.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-ses/"
         }
     ],
     "packages-dev": [],

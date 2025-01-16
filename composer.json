@@ -38,8 +38,10 @@
     "lewebsimple/ithemes-security-pro": "*",
     "lewebsimple/kaliroots": "*",
     "lewebsimple/wp-offload-ses": "*",
+    "wpackagist-plugin/disable-emails": "*",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/user-switching": "*",
-    "wpackagist-plugin/wordpress-seo": "*"
+    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/wp-mail-logging": "*"
   }
 }

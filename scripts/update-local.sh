@@ -39,6 +39,15 @@ wp --skip-plugins --skip-themes plugin deactivate \
   > ${_LOG_} 2>&1 || true \
 TIME_STOP
 
+# Activate plugins
+INFO "Activating plugins..."
+TIME_START
+wp --skip-plugins --skip-themes plugin activate \
+  disable-emails \
+  wp-mail-logging \
+  > ${_LOG_} 2>&1 || true \
+TIME_STOP
+
 # Flush permalinks
 INFO "Flushing permalinks..."
 TIME_START

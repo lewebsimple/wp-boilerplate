@@ -35,7 +35,6 @@ INFO "Deactivating plugins..."
 TIME_START
 wp --skip-plugins --skip-themes plugin deactivate \
   ithemes-security-pro \
-  litespeed-cache \
   wp-offload-ses \
   > ${_LOG_} 2>&1 || true \
 TIME_STOP

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b7e77942c486e5ec842e018ba43433e",
+    "content-hash": "4c052eaf3618845a2a3970aab0047a2e",
     "packages": [
         {
             "name": "composer/installers",
@@ -154,20 +154,20 @@
         },
         {
             "name": "lewebsimple/acf-extended-pro",
-            "version": "v0.9.0.5",
+            "version": "v0.9.0.9",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/acf-extended-pro.git",
-                "reference": "e60bf6a922fcdcacfaef80b92467c9653b183cb4"
+                "reference": "c368c8f06f0339bb162ba784867d9bf41e45e6f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/acf-extended-pro/lewebsimple-acf-extended-pro-v0.9.0.5-d221df.zip",
-                "reference": "e60bf6a922fcdcacfaef80b92467c9653b183cb4",
-                "shasum": "494f72e4dd9a236f2b05c7edaab5a8004558ccfc"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/acf-extended-pro/lewebsimple-acf-extended-pro-v0.9.0.9-f7af20.zip",
+                "reference": "c368c8f06f0339bb162ba784867d9bf41e45e6f4",
+                "shasum": "4567ef40aaa72bb69a63dcfcc18ced4169a27816"
             },
             "type": "wordpress-plugin",
-            "time": "2024-10-21T12:08:59+00:00"
+            "time": "2025-01-14T19:00:33+00:00"
         },
         {
             "name": "lewebsimple/acf-polylang",
@@ -188,20 +188,20 @@
         },
         {
             "name": "lewebsimple/admin-site-enhancements-pro",
-            "version": "v7.6.5",
+            "version": "v7.6.6",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/admin-site-enhancements-pro.git",
-                "reference": "cce68f625ac7e9ec294b0e639bffce3605731011"
+                "reference": "f2fbe89f9321fc9437717449dc9d49381e44baf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/admin-site-enhancements-pro/lewebsimple-admin-site-enhancements-pro-v7.6.5-63369c.zip",
-                "reference": "cce68f625ac7e9ec294b0e639bffce3605731011",
-                "shasum": "c5852e32b40b860b56873b79a1a9639d19389368"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/admin-site-enhancements-pro/lewebsimple-admin-site-enhancements-pro-v7.6.6-822585.zip",
+                "reference": "f2fbe89f9321fc9437717449dc9d49381e44baf1",
+                "shasum": "536b63a0203c60734ea4fa65b38fffc8863a465f"
             },
             "type": "wordpress-plugin",
-            "time": "2025-01-09T20:00:48+00:00"
+            "time": "2025-01-13T18:13:48+00:00"
         },
         {
             "name": "lewebsimple/advanced-custom-fields-pro",
@@ -222,37 +222,37 @@
         },
         {
             "name": "lewebsimple/ithemes-security-pro",
-            "version": "v8.5.3",
+            "version": "v8.5.3.1",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/ithemes-security-pro.git",
-                "reference": "8b47aebf1ee01426dccbc06eca0395935da77296"
+                "reference": "0bd3e0ab78de84bb4e2428be19f67161c1ec0960"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/ithemes-security-pro/lewebsimple-ithemes-security-pro-v8.5.3-a9228d.zip",
-                "reference": "8b47aebf1ee01426dccbc06eca0395935da77296",
-                "shasum": "12d55ec9652523acfbe8949e52d16eec2a0d6a99"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/ithemes-security-pro/lewebsimple-ithemes-security-pro-v8.5.3.1-d744cf.zip",
+                "reference": "0bd3e0ab78de84bb4e2428be19f67161c1ec0960",
+                "shasum": "eb7ef0661f37f45532b87efd6ed56037a95fa934"
             },
             "type": "wordpress-plugin",
-            "time": "2025-01-08T14:09:24+00:00"
+            "time": "2025-01-13T18:44:32+00:00"
         },
         {
             "name": "lewebsimple/kaliroots",
-            "version": "v0.9.15",
+            "version": "v0.9.16",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-themes/kaliroots.git",
-                "reference": "bf132902927dfbc17ee53573d3c1edb22c514202"
+                "reference": "33ee40db18dd28b09b1cb297724915d2427f9248"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/kaliroots/lewebsimple-kaliroots-v0.9.15-6d7d2f.zip",
-                "reference": "bf132902927dfbc17ee53573d3c1edb22c514202",
-                "shasum": "4f961450f889d47d374193b147d2005c2279477a"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/kaliroots/lewebsimple-kaliroots-v0.9.16-da122f.zip",
+                "reference": "33ee40db18dd28b09b1cb297724915d2427f9248",
+                "shasum": "ddc5b16519c5b84c888aa8ab955ac71d26c58c38"
             },
             "type": "wordpress-theme",
-            "time": "2024-12-13T13:53:23+00:00"
+            "time": "2025-01-14T14:18:13+00:00"
         },
         {
             "name": "lewebsimple/wp-offload-ses",

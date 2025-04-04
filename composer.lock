@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72a9e574d5dfa3d78d3662460d01457f",
+    "content-hash": "79c9f8b72545a56751c2207a06042a56",
     "packages": [
         {
             "name": "composer/installers",
@@ -154,20 +154,20 @@
         },
         {
             "name": "lewebsimple/acf-extended-pro",
-            "version": "v0.9.0.9",
+            "version": "v0.9.1",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/acf-extended-pro.git",
-                "reference": "c368c8f06f0339bb162ba784867d9bf41e45e6f4"
+                "reference": "123a9cb62feeb020b495f9963ce0c78529970d89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/acf-extended-pro/lewebsimple-acf-extended-pro-v0.9.0.9-f7af20.zip",
-                "reference": "c368c8f06f0339bb162ba784867d9bf41e45e6f4",
-                "shasum": "4567ef40aaa72bb69a63dcfcc18ced4169a27816"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/acf-extended-pro/lewebsimple-acf-extended-pro-v0.9.1-72f8d5.zip",
+                "reference": "123a9cb62feeb020b495f9963ce0c78529970d89",
+                "shasum": "9fb98d03a632cd9310c32cb7185431ebce6cc337"
             },
             "type": "wordpress-plugin",
-            "time": "2025-01-14T19:00:33+00:00"
+            "time": "2025-02-25T14:28:04+00:00"
         },
         {
             "name": "lewebsimple/acf-polylang",
@@ -205,20 +205,20 @@
         },
         {
             "name": "lewebsimple/advanced-custom-fields-pro",
-            "version": "v6.3.11",
+            "version": "v6.3.12",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/advanced-custom-fields-pro.git",
-                "reference": "4a67623359e88a7cc7e94c37137fe36c9598b9f3"
+                "reference": "b5fd5b4bd856a2f63aaf5bd96414172a7cda5c20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/advanced-custom-fields-pro/lewebsimple-advanced-custom-fields-pro-v6.3.11-1c9084.zip",
-                "reference": "4a67623359e88a7cc7e94c37137fe36c9598b9f3",
-                "shasum": "e57b2b4fa98831bc66d22110ae02761c19faf12e"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/advanced-custom-fields-pro/lewebsimple-advanced-custom-fields-pro-v6.3.12-f7a416.zip",
+                "reference": "b5fd5b4bd856a2f63aaf5bd96414172a7cda5c20",
+                "shasum": "868a6fb20760be4231b92c890eca65b3d20713a7"
             },
             "type": "wordpress-plugin",
-            "time": "2024-11-14T13:15:57+00:00"
+            "time": "2025-01-22T19:47:33+00:00"
         },
         {
             "name": "lewebsimple/ithemes-security-pro",
@@ -272,34 +272,16 @@
             "time": "2025-01-09T15:43:07+00:00"
         },
         {
-            "name": "wpackagist-plugin/disable-emails",
-            "version": "1.8.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/disable-emails/",
-                "reference": "tags/1.8.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-emails.1.8.2.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/disable-emails/"
-        },
-        {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.5.1",
+            "version": "5.5.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.5.1"
+                "reference": "tags/5.5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.5.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.5.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -327,39 +309,21 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "24.2",
+            "version": "24.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/24.2"
+                "reference": "tags/24.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.24.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.24.8.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-mail-logging",
-            "version": "1.14.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-mail-logging/",
-                "reference": "tags/1.14.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-logging.1.14.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-mail-logging/"
         }
     ],
     "packages-dev": [],

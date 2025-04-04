@@ -34,6 +34,7 @@ TIME_STOP
 INFO "Deactivating plugins..."
 TIME_START
 wp --skip-plugins --skip-themes plugin deactivate \
+  cookie-law-info \
   ithemes-security-pro \
   wp-offload-ses \
   > ${_LOG_} 2>&1 || true \
@@ -42,7 +43,7 @@ TIME_STOP
 # Activate plugins
 INFO "Activating plugins..."
 TIME_START
-wp --skip-plugins --skip-themes plugin activate \
+wp --skip-plugins --skip-themes plugin install --activate \
   disable-emails \
   wp-mail-logging \
   > ${_LOG_} 2>&1 || true \

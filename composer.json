@@ -1,17 +1,17 @@
 {
   "name": "lewebsimple/wp-boilerplate",
   "description": "WordPress project",
-  "version": "0.4.16",
+  "version": "0.4.17",
   "type": "project",
   "license": "MIT",
   "repositories": [
     {
       "type": "composer",
-      "url": "https://wpackagist.org"
+      "url": "https://satis.ledevsimple.ca"
     },
     {
       "type": "composer",
-      "url": "https://satis.ledevsimple.ca"
+      "url": "https://wpackagist.org"
     }
   ],
   "prefer-stable": true,

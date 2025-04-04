@@ -34,9 +34,9 @@ wp core download --force --skip-content
 wp core config --dbname=${DB_NAME}
 
 # Require Composer vendor/autoload.php in wp-config.php
-VENDOR_AUTLOAD = "if ( file_exists( 'vendor/autoload.php' ) ) { require_once 'vendor/autoload.php'; }"
-if ! grep -Fq "${VENDOR_AUTLOAD}" wp-config.php; then
-  sed -i "1s/^/${VENDOR_AUTLOAD}\n/" wp-config.php
+VENDOR_AUTOLOAD="if ( file_exists( 'vendor/autoload.php' ) ) { require_once 'vendor/autoload.php'; }"
+if ! grep -Fq "${VENDOR_AUTOLOAD}" wp-config.php; then
+  sed -i "1s/^/${VENDOR_AUTOLOAD}\n/" wp-config.php
 fi
 
 # Done

@@ -4,8 +4,74 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79c9f8b72545a56751c2207a06042a56",
+    "content-hash": "564b844f98276d6aa8168cc57b24dc5d",
     "packages": [
+        {
+            "name": "chubbyphp/chubbyphp-parsing",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chubbyphp/chubbyphp-parsing.git",
+                "reference": "013bf8b479d5bd7703797f964966d542f1f54ddf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chubbyphp/chubbyphp-parsing/zipball/013bf8b479d5bd7703797f964966d542f1f54ddf",
+                "reference": "013bf8b479d5bd7703797f964966d542f1f54ddf",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "chubbyphp/chubbyphp-dev-helper": "dev-master",
+                "chubbyphp/chubbyphp-mock": "^1.8",
+                "infection/infection": "^0.29.8",
+                "php-coveralls/php-coveralls": "^2.7.0",
+                "phpstan/extension-installer": "^1.4.3",
+                "phpstan/phpstan": "^2.0.3",
+                "phpunit/phpunit": "^11.5.0",
+                "respect/validation": "^2.3"
+            },
+            "suggest": {
+                "respect/validation": "If your interested in using the respect/validation, please install it with ^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Chubbyphp\\Parsing\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dominik Zogg",
+                    "email": "dominik.zogg@gmail.com"
+                }
+            ],
+            "description": "Allows parsing data of various structures, meaning the population and validation of data into a defined structure. For example, converting an API request into a Data Transfer Object (DTO).",
+            "keywords": [
+                "chubbyphp",
+                "dto",
+                "parsing",
+                "population",
+                "validation",
+                "zod"
+            ],
+            "support": {
+                "issues": "https://github.com/chubbyphp/chubbyphp-parsing/issues",
+                "source": "https://github.com/chubbyphp/chubbyphp-parsing/tree/1.3.0"
+            },
+            "time": "2024-12-07T15:21:58+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v2.3.0",

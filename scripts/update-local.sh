@@ -45,6 +45,7 @@ INFO "Activating plugins..."
 TIME_START
 wp --skip-plugins --skip-themes plugin install --activate \
   disable-emails \
+  loco-translate \
   wp-mail-logging \
   > ${_LOG_} 2>&1 || true \
 TIME_STOP

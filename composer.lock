@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "564b844f98276d6aa8168cc57b24dc5d",
+    "content-hash": "dc9c7c05e70a906330cf6c61c480d03e",
     "packages": [
         {
             "name": "chubbyphp/chubbyphp-parsing",
-            "version": "1.3.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chubbyphp/chubbyphp-parsing.git",
-                "reference": "013bf8b479d5bd7703797f964966d542f1f54ddf"
+                "reference": "92d76d0fda8a37b78553704ec2ab2880c9022111"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chubbyphp/chubbyphp-parsing/zipball/013bf8b479d5bd7703797f964966d542f1f54ddf",
-                "reference": "013bf8b479d5bd7703797f964966d542f1f54ddf",
+                "url": "https://api.github.com/repos/chubbyphp/chubbyphp-parsing/zipball/92d76d0fda8a37b78553704ec2ab2880c9022111",
+                "reference": "92d76d0fda8a37b78553704ec2ab2880c9022111",
                 "shasum": ""
             },
             "require": {
@@ -25,21 +25,20 @@
             },
             "require-dev": {
                 "chubbyphp/chubbyphp-dev-helper": "dev-master",
-                "chubbyphp/chubbyphp-mock": "^1.8",
-                "infection/infection": "^0.29.8",
+                "infection/infection": "^0.29.12",
                 "php-coveralls/php-coveralls": "^2.7.0",
                 "phpstan/extension-installer": "^1.4.3",
-                "phpstan/phpstan": "^2.0.3",
-                "phpunit/phpunit": "^11.5.0",
-                "respect/validation": "^2.3"
+                "phpstan/phpstan": "^2.1.6",
+                "phpunit/phpunit": "^11.5.9",
+                "respect/validation": "^2.4"
             },
             "suggest": {
-                "respect/validation": "If your interested in using the respect/validation, please install it with ^2.3"
+                "respect/validation": "If your interested in using the respect/validation, please install it with ^2.4"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -68,9 +67,9 @@
             ],
             "support": {
                 "issues": "https://github.com/chubbyphp/chubbyphp-parsing/issues",
-                "source": "https://github.com/chubbyphp/chubbyphp-parsing/tree/1.3.0"
+                "source": "https://github.com/chubbyphp/chubbyphp-parsing/tree/1.4.1"
             },
-            "time": "2024-12-07T15:21:58+00:00"
+            "time": "2025-04-27T12:35:55+00:00"
         },
         {
             "name": "composer/installers",
@@ -237,20 +236,20 @@
         },
         {
             "name": "lewebsimple/acf-polylang",
-            "version": "v1.2.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/acf-polylang.git",
-                "reference": "ba5321d5211e11df8aa72b0c35cad7c51f97bae7"
+                "reference": "3998e44ccc400bd6233c98364df03a4f6db4f7b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/acf-polylang/lewebsimple-acf-polylang-v1.2.0-e4f990.zip",
-                "reference": "ba5321d5211e11df8aa72b0c35cad7c51f97bae7",
-                "shasum": "9983240f919a7516e01423bc434817c9a7dfabbd"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/acf-polylang/lewebsimple-acf-polylang-v1.4.0-d64a6e.zip",
+                "reference": "3998e44ccc400bd6233c98364df03a4f6db4f7b0",
+                "shasum": "1cb04729c3991e538bc38b3ef2371f9cbe47aea6"
             },
             "type": "wordpress-plugin",
-            "time": "2024-02-07T19:47:27+00:00"
+            "time": "2025-04-11T12:05:23+00:00"
         },
         {
             "name": "lewebsimple/admin-site-enhancements-pro",
@@ -271,20 +270,20 @@
         },
         {
             "name": "lewebsimple/advanced-custom-fields-pro",
-            "version": "v6.3.12",
+            "version": "v6.4.1",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/advanced-custom-fields-pro.git",
-                "reference": "b5fd5b4bd856a2f63aaf5bd96414172a7cda5c20"
+                "reference": "a80762e835d5c2d0f297185350f80cca1a6ce622"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/advanced-custom-fields-pro/lewebsimple-advanced-custom-fields-pro-v6.3.12-f7a416.zip",
-                "reference": "b5fd5b4bd856a2f63aaf5bd96414172a7cda5c20",
-                "shasum": "868a6fb20760be4231b92c890eca65b3d20713a7"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/advanced-custom-fields-pro/lewebsimple-advanced-custom-fields-pro-v6.4.1-28ed38.zip",
+                "reference": "a80762e835d5c2d0f297185350f80cca1a6ce622",
+                "shasum": "4273fa500ce53932675eef6639cbaafb43208f9d"
             },
             "type": "wordpress-plugin",
-            "time": "2025-01-22T19:47:33+00:00"
+            "time": "2025-05-12T11:47:56+00:00"
         },
         {
             "name": "lewebsimple/ithemes-security-pro",
@@ -305,20 +304,20 @@
         },
         {
             "name": "lewebsimple/kaliroots",
-            "version": "v0.9.16",
+            "version": "v0.9.17",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-themes/kaliroots.git",
-                "reference": "33ee40db18dd28b09b1cb297724915d2427f9248"
+                "reference": "a9cf1340420b4c36800e67dbb6641141d1d27b9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/kaliroots/lewebsimple-kaliroots-v0.9.16-da122f.zip",
-                "reference": "33ee40db18dd28b09b1cb297724915d2427f9248",
-                "shasum": "ddc5b16519c5b84c888aa8ab955ac71d26c58c38"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/kaliroots/lewebsimple-kaliroots-v0.9.17-b18806.zip",
+                "reference": "a9cf1340420b4c36800e67dbb6641141d1d27b9b",
+                "shasum": "88a98020c7feb584b055d3aae30e937461933095"
             },
             "type": "wordpress-theme",
-            "time": "2025-01-14T14:18:13+00:00"
+            "time": "2025-04-10T12:17:27+00:00"
         },
         {
             "name": "lewebsimple/wp-offload-ses",
@@ -336,6 +335,24 @@
             },
             "type": "wordpress-plugin",
             "time": "2025-01-09T15:43:07+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/disable-comments",
+            "version": "2.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-comments/",
+                "reference": "tags/2.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.2.5.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-comments/"
         },
         {
             "name": "wpackagist-plugin/redirection",
@@ -357,15 +374,15 @@
         },
         {
             "name": "wpackagist-plugin/user-switching",
-            "version": "1.9.1",
+            "version": "1.9.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/user-switching/",
-                "reference": "tags/1.9.1"
+                "reference": "tags/1.9.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.9.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.9.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -375,15 +392,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "24.8.1",
+            "version": "25.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/24.8.1"
+                "reference": "tags/25.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.24.8.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.25.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"

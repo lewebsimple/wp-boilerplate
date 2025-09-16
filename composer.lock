@@ -222,7 +222,7 @@
             "version": "v0.9.1",
             "source": {
                 "type": "git",
-                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/acf-extended-pro.git",
+                "url": "ssh://git@gitea.websimple.com:222/wp-plugins/acf-extended-pro.git",
                 "reference": "123a9cb62feeb020b495f9963ce0c78529970d89"
             },
             "dist": {
@@ -239,7 +239,7 @@
             "version": "v1.4.0",
             "source": {
                 "type": "git",
-                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/acf-polylang.git",
+                "url": "ssh://git@gitea.websimple.com:222/wp-plugins/acf-polylang.git",
                 "reference": "3998e44ccc400bd6233c98364df03a4f6db4f7b0"
             },
             "dist": {
@@ -256,7 +256,7 @@
             "version": "v7.6.6",
             "source": {
                 "type": "git",
-                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/admin-site-enhancements-pro.git",
+                "url": "ssh://git@gitea.websimple.com:222/wp-plugins/admin-site-enhancements-pro.git",
                 "reference": "f2fbe89f9321fc9437717449dc9d49381e44baf1"
             },
             "dist": {
@@ -273,7 +273,7 @@
             "version": "v6.4.1",
             "source": {
                 "type": "git",
-                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/advanced-custom-fields-pro.git",
+                "url": "ssh://git@gitea.websimple.com:222/wp-plugins/advanced-custom-fields-pro.git",
                 "reference": "a80762e835d5c2d0f297185350f80cca1a6ce622"
             },
             "dist": {
@@ -290,7 +290,7 @@
             "version": "v8.5.3.1",
             "source": {
                 "type": "git",
-                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/ithemes-security-pro.git",
+                "url": "ssh://git@gitea.websimple.com:222/wp-plugins/ithemes-security-pro.git",
                 "reference": "0bd3e0ab78de84bb4e2428be19f67161c1ec0960"
             },
             "dist": {
@@ -307,7 +307,7 @@
             "version": "v0.9.17",
             "source": {
                 "type": "git",
-                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-themes/kaliroots.git",
+                "url": "ssh://git@gitea.websimple.com:222/wp-themes/kaliroots.git",
                 "reference": "a9cf1340420b4c36800e67dbb6641141d1d27b9b"
             },
             "dist": {
@@ -324,7 +324,7 @@
             "version": "v1.6.8",
             "source": {
                 "type": "git",
-                "url": "ssh://git@gitlab.ledevsimple.ca:222/wp-plugins/wp-offload-ses.git",
+                "url": "ssh://git@gitea.websimple.com:222/wp-plugins/wp-offload-ses.git",
                 "reference": "7b6046d329e96da3a5f6714cd73e14172d9e7840"
             },
             "dist": {

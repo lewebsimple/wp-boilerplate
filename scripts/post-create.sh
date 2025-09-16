@@ -3,16 +3,16 @@ set -e
 
 PROJECT=${PWD##*/}
 DB_NAME="wp_${PROJECT/-/_}"
-GIT_URL="https://gitlab.ledevsimple.ca/wp-sites/${PROJECT}.git"
-GIT_ORIGIN="ssh://git@gitlab.ledevsimple.ca:222/wp-sites/${PROJECT}.git"
+GIT_URL="https://gitea.websimple.com/wp-sites/${PROJECT}.git"
+GIT_ORIGIN="ssh://git@gitea.websimple.com:222/wp-sites/${PROJECT}.git"
 
 # Rename project
 sed -i -e "s/wp-boilerplate/${PROJECT}/g" .cpanel.yml .gitignore composer.json
 
 # Initialize git repository
 git init
-git remote add gitlab ${GIT_ORIGIN}
-git fetch gitlab || error_code=$?
+git remote add origin ${GIT_ORIGIN}
+git fetch origin || error_code=$?
 if [ "${error_code-0}" -eq 0 ]; then
   git checkout main -f
   rm -rf wp-content/mu-plugins/*
@@ -21,7 +21,7 @@ if [ "${error_code-0}" -eq 0 ]; then
   git reset --hard
   composer install
 else
-  git remote remove gitlab
+  git remote remove origin
   git add -A
   git commit -am 'chore: initial wp-boilerplate project'
 fi
@@ -40,4 +40,4 @@ if ! grep -Fq "${VENDOR_AUTOLOAD}" wp-config.php; then
 fi
 
 # Done
-echo "Site ready at https://${PROJECT}.${TLD-ledevsimple.ca}"
+echo "Site ready at ${LOCAL_PROTOCOL-https}://${PROJECT}.${TLD-ledevsimple.ca}"

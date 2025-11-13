@@ -1,7 +1,10 @@
 # Project-specific files
 /*
+!/.claude
 !/.cpanel.yml
+!/.gitea
 !/.gitignore
+!/.vscode
 !/composer.*
 !/phpcs.xml
 !/wp-content/
@@ -20,3 +23,4 @@
 !/wp-content/themes/
 /wp-content/themes/*
 !/wp-content/themes/.gitkeep
+!/wp-content/themes/wp-boilerplate/

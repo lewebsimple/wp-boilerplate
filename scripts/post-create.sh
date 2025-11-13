@@ -7,7 +7,7 @@ GIT_URL="https://gitea.websimple.com/wp-sites/${PROJECT}.git"
 GIT_ORIGIN="ssh://git@gitea.websimple.com:222/wp-sites/${PROJECT}.git"
 
 # Rename project
-sed -i -e "s/wp-boilerplate/${PROJECT}/g" .cpanel.yml .gitignore composer.json
+sed -i -e "s/wp-boilerplate/${PROJECT}/g" .cpanel.yml .gitignore composer.json phpcs.xml
 
 # Initialize git repository
 git init

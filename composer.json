@@ -16,19 +16,20 @@
   ],
   "prefer-stable": true,
   "config": {
-    "platform": {
-      "php": "8.2"
+    "allow-plugins": {
+      "composer/installers": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
     },
     "optimize-autoloader": true,
-    "sort-packages": true,
-    "allow-plugins": {
-      "composer/installers": true
-    }
+    "preferred-install": "dist",
+    "sort-packages": true
   },
   "scripts": {
     "post-create-project-cmd": [
       "./scripts/post-create.sh"
-    ]
+    ],
+    "lint": "vendor/bin/phpcs",
+    "lintfix": "vendor/bin/phpcbf"
   },
   "require": {
     "chubbyphp/chubbyphp-parsing": "*",
@@ -43,5 +44,9 @@
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/user-switching": "*",
     "wpackagist-plugin/wordpress-seo": "*"
+  },
+  "require-dev": {
+    "lewebsimple/wp-phpcs-ruleset": "*",
+    "squizlabs/php_codesniffer": "*"
   }
 }

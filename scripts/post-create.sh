@@ -35,7 +35,7 @@ wp core config --dbname=${DB_NAME}
 
 # Require Composer vendor/autoload.php in wp-config.php
 VENDOR_AUTOLOAD="if ( file_exists( 'vendor/autoload.php' ) ) { require_once 'vendor/autoload.php'; }"
-if ! grep -Fq "${VENDOR_AUTOLOAD}" wp-config.php; then
+if ! grep -Fq "vendor/autoload.php" wp-config.php; then
   sed -i -e "2s|^|${VENDOR_AUTOLOAD}\n|" wp-config.php
 fi
 

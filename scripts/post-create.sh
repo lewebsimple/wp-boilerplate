@@ -6,8 +6,28 @@ DB_NAME="wp_${PROJECT/-/_}"
 GIT_URL="https://gitea.websimple.com/wp-sites/${PROJECT}.git"
 GIT_ORIGIN="ssh://git@gitea.websimple.com:222/wp-sites/${PROJECT}.git"
 
+# Portable in-place sed: use GNU sed's -i -e or BSD/macOS sed's -i '' -e
+sed_inplace() {
+  local expr="$1"
+  shift || return
+
+  # Detect macOS (Darwin) via uname -s; treat everything else as GNU-like sed
+  local os
+  os="$(uname -s 2>/dev/null || echo Unknown)"
+
+  for f in "$@"; do
+    if [ "$os" = "Darwin" ]; then
+      # macOS/BSD sed requires an explicit empty extension to avoid creating backups
+      sed -i '' -e "$expr" "$f"
+    else
+      # GNU sed supports -i -e without creating backup files
+      sed -i -e "$expr" "$f"
+    fi
+  done
+}
+
 # Rename project
-sed -i -e "s/wp-boilerplate/${PROJECT}/g" .cpanel.yml .gitignore composer.json phpcs.xml
+sed_inplace "s/wp-boilerplate/${PROJECT}/g" .cpanel.yml .gitignore composer.json
 
 # Initialize git repository
 git init
@@ -35,8 +55,8 @@ wp core config --dbname=${DB_NAME}
 
 # Require Composer vendor/autoload.php in wp-config.php
 VENDOR_AUTOLOAD="if ( file_exists( 'vendor/autoload.php' ) ) { require_once 'vendor/autoload.php'; }"
-if ! grep -Fq "vendor/autoload.php" wp-config.php; then
-  sed -i -e "2s|^|${VENDOR_AUTOLOAD}\n|" wp-config.php
+if ! grep -Fq "${VENDOR_AUTOLOAD}" wp-config.php; then
+  sed_inplace "2s|^|${VENDOR_AUTOLOAD}\n|" wp-config.php
 fi
 
 # Done

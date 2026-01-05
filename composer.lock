@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8341507e0d7df112217cfe15953a9d3",
+    "content-hash": "e60b6ea169623f0db03a208049a65a6a",
     "packages": [
         {
             "name": "chubbyphp/chubbyphp-parsing",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chubbyphp/chubbyphp-parsing.git",
-                "reference": "2e7fe6f06768be3b79e96ff80e987a303fa80580"
+                "reference": "40a044772b2c56d19f0e8f599bfcb477f4d361ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chubbyphp/chubbyphp-parsing/zipball/2e7fe6f06768be3b79e96ff80e987a303fa80580",
-                "reference": "2e7fe6f06768be3b79e96ff80e987a303fa80580",
+                "url": "https://api.github.com/repos/chubbyphp/chubbyphp-parsing/zipball/40a044772b2c56d19f0e8f599bfcb477f4d361ca",
+                "reference": "40a044772b2c56d19f0e8f599bfcb477f4d361ca",
                 "shasum": ""
             },
             "require": {
@@ -25,15 +25,15 @@
             },
             "require-dev": {
                 "chubbyphp/chubbyphp-dev-helper": "dev-master",
-                "infection/infection": "^0.29.12",
-                "php-coveralls/php-coveralls": "^2.7.0",
+                "infection/infection": "^0.31.9",
+                "php-coveralls/php-coveralls": "^2.9",
                 "phpstan/extension-installer": "^1.4.3",
-                "phpstan/phpstan": "^2.1.6",
-                "phpunit/phpunit": "^11.5.9",
-                "respect/validation": "^2.4"
+                "phpstan/phpstan": "^2.1.32",
+                "phpunit/phpunit": "^11.5.44",
+                "respect/validation": "^2.4.4"
             },
             "suggest": {
-                "respect/validation": "If your interested in using the respect/validation, please install it with ^2.4"
+                "respect/validation": "If your interested in using the respect/validation, please install it with ^2.4.4"
             },
             "type": "library",
             "extra": {
@@ -67,9 +67,9 @@
             ],
             "support": {
                 "issues": "https://github.com/chubbyphp/chubbyphp-parsing/issues",
-                "source": "https://github.com/chubbyphp/chubbyphp-parsing/tree/2.0.0"
+                "source": "https://github.com/chubbyphp/chubbyphp-parsing/tree/2.0.1"
             },
-            "time": "2025-10-12T17:45:05+00:00"
+            "time": "2025-11-29T17:52:02+00:00"
         },
         {
             "name": "composer/installers",
@@ -218,23 +218,6 @@
             "time": "2024-06-24T20:46:46+00:00"
         },
         {
-            "name": "lewebsimple/acf-extended-pro",
-            "version": "v0.9.1.1",
-            "source": {
-                "type": "git",
-                "url": "ssh://git@gitea.websimple.com:222/wp-plugins/acf-extended-pro.git",
-                "reference": "83b6ccef59c5580042c2a144921c0c55c44f3963"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/acf-extended-pro/lewebsimple-acf-extended-pro-v0.9.1.1-8eea9e.zip",
-                "reference": "83b6ccef59c5580042c2a144921c0c55c44f3963",
-                "shasum": "af562265aa563b0f8884df84abb64aac5e73764d"
-            },
-            "type": "wordpress-plugin",
-            "time": "2025-09-24T11:56:37+00:00"
-        },
-        {
             "name": "lewebsimple/acf-polylang",
             "version": "v1.4.0",
             "source": {
@@ -253,37 +236,37 @@
         },
         {
             "name": "lewebsimple/admin-site-enhancements-pro",
-            "version": "v8.0.1",
+            "version": "v8.1.1",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitea.websimple.com:222/wp-plugins/admin-site-enhancements-pro.git",
-                "reference": "ca6ccbe56b69183514b9170ffb0626e6b2ff7361"
+                "reference": "75ff8c27a098f162969f23550d3754eab9063a11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/admin-site-enhancements-pro/lewebsimple-admin-site-enhancements-pro-v8.0.1-667ea6.zip",
-                "reference": "ca6ccbe56b69183514b9170ffb0626e6b2ff7361",
-                "shasum": "659c9ec3f3a2e4f667225d4e02ab99e80f45d44f"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/admin-site-enhancements-pro/lewebsimple-admin-site-enhancements-pro-v8.1.1-59be42.zip",
+                "reference": "75ff8c27a098f162969f23550d3754eab9063a11",
+                "shasum": "2e6ef4639a71325b6a1988db20b1badbffbd37d5"
             },
             "type": "wordpress-plugin",
-            "time": "2025-10-08T16:33:53+00:00"
+            "time": "2025-12-12T16:17:17+00:00"
         },
         {
             "name": "lewebsimple/advanced-custom-fields-pro",
-            "version": "v6.6.2",
+            "version": "v6.7.0.2",
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitea.websimple.com:222/wp-plugins/advanced-custom-fields-pro.git",
-                "reference": "d1b72cafabeab375b1059211c0d55df5a804cedb"
+                "reference": "0f05fc999189ec688c19abe4d8c889f947ec96c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/advanced-custom-fields-pro/lewebsimple-advanced-custom-fields-pro-v6.6.2-830bf1.zip",
-                "reference": "d1b72cafabeab375b1059211c0d55df5a804cedb",
-                "shasum": "3b6811910e4d8e89e1b74566d104e0b81bbb9475"
+                "url": "https://satis.ledevsimple.ca/dist/lewebsimple/advanced-custom-fields-pro/lewebsimple-advanced-custom-fields-pro-v6.7.0.2-911a1f.zip",
+                "reference": "0f05fc999189ec688c19abe4d8c889f947ec96c3",
+                "shasum": "2782595387ea3b62a81cdb0a79ec75e9beca8aa7"
             },
             "type": "wordpress-plugin",
-            "time": "2025-11-04T13:01:11+00:00"
+            "time": "2025-12-12T16:12:43+00:00"
         },
         {
             "name": "lewebsimple/ithemes-security-pro",
@@ -337,16 +320,34 @@
             "time": "2025-01-09T15:43:07+00:00"
         },
         {
-            "name": "wpackagist-plugin/disable-comments",
-            "version": "2.6.0",
+            "name": "wpackagist-plugin/acf-extended",
+            "version": "0.9.2.2",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/disable-comments/",
-                "reference": "tags/2.6.0"
+                "url": "https://plugins.svn.wordpress.org/acf-extended/",
+                "reference": "tags/0.9.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-comments.2.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/acf-extended.0.9.2.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-extended/"
+        },
+        {
+            "name": "wpackagist-plugin/disable-comments",
+            "version": "2.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-comments/",
+                "reference": "tags/2.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.2.6.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -356,15 +357,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.5.2",
+            "version": "5.6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.5.2"
+                "reference": "tags/5.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.5.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.6.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -374,15 +375,15 @@
         },
         {
             "name": "wpackagist-plugin/user-switching",
-            "version": "1.11.0",
+            "version": "1.11.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/user-switching/",
-                "reference": "tags/1.11.0"
+                "reference": "tags/1.11.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.11.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.11.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -392,15 +393,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "26.3",
+            "version": "26.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/26.3"
+                "reference": "tags/26.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.26.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.26.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -508,16 +509,16 @@
         },
         {
             "name": "lewebsimple/wp-phpcs-ruleset",
-            "version": "0.1.1",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lewebsimple/wp-phpcs-ruleset.git",
-                "reference": "e3e3f481f9ec3ea3926c70a0a81b85ad2e881135"
+                "reference": "8467947b62d2c394819aa7313ddcb09086da53bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lewebsimple/wp-phpcs-ruleset/zipball/e3e3f481f9ec3ea3926c70a0a81b85ad2e881135",
-                "reference": "e3e3f481f9ec3ea3926c70a0a81b85ad2e881135",
+                "url": "https://api.github.com/repos/lewebsimple/wp-phpcs-ruleset/zipball/8467947b62d2c394819aa7313ddcb09086da53bb",
+                "reference": "8467947b62d2c394819aa7313ddcb09086da53bb",
                 "shasum": ""
             },
             "require": {
@@ -540,9 +541,9 @@
             "description": "Shared PHPCS ruleset for WordPress projects",
             "support": {
                 "issues": "https://github.com/lewebsimple/wp-phpcs-ruleset/issues",
-                "source": "https://github.com/lewebsimple/wp-phpcs-ruleset/tree/v0.1.1"
+                "source": "https://github.com/lewebsimple/wp-phpcs-ruleset/tree/v0.1.5"
             },
-            "time": "2025-10-09T02:45:01+00:00"
+            "time": "2025-12-03T16:04:08+00:00"
         },
         {
             "name": "phpcsstandards/phpcsextra",
@@ -628,16 +629,16 @@
         },
         {
             "name": "phpcsstandards/phpcsutils",
-            "version": "1.2.0",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHPCSUtils.git",
-                "reference": "fa82d14ad1c1713224a52c66c78478145fe454ba"
+                "reference": "c216317e96c8b3f5932808f9b0f1f7a14e3bbf55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSUtils/zipball/fa82d14ad1c1713224a52c66c78478145fe454ba",
-                "reference": "fa82d14ad1c1713224a52c66c78478145fe454ba",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSUtils/zipball/c216317e96c8b3f5932808f9b0f1f7a14e3bbf55",
+                "reference": "c216317e96c8b3f5932808f9b0f1f7a14e3bbf55",
                 "shasum": ""
             },
             "require": {
@@ -717,7 +718,7 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-11-11T00:17:56+00:00"
+            "time": "2025-12-08T14:27:58+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -800,16 +801,16 @@
         },
         {
             "name": "wp-coding-standards/wpcs",
-            "version": "3.2.0",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress-Coding-Standards.git",
-                "reference": "d2421de7cec3274ae622c22c744de9a62c7925af"
+                "reference": "7795ec6fa05663d716a549d0b44e47ffc8b0d4a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/d2421de7cec3274ae622c22c744de9a62c7925af",
-                "reference": "d2421de7cec3274ae622c22c744de9a62c7925af",
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/7795ec6fa05663d716a549d0b44e47ffc8b0d4a6",
+                "reference": "7795ec6fa05663d716a549d0b44e47ffc8b0d4a6",
                 "shasum": ""
             },
             "require": {
@@ -817,17 +818,17 @@
                 "ext-libxml": "*",
                 "ext-tokenizer": "*",
                 "ext-xmlreader": "*",
-                "php": ">=5.4",
-                "phpcsstandards/phpcsextra": "^1.4.0",
+                "php": ">=7.2",
+                "phpcsstandards/phpcsextra": "^1.5.0",
                 "phpcsstandards/phpcsutils": "^1.1.0",
-                "squizlabs/php_codesniffer": "^3.13.0"
+                "squizlabs/php_codesniffer": "^3.13.4"
             },
             "require-dev": {
                 "php-parallel-lint/php-console-highlighter": "^1.0.0",
                 "php-parallel-lint/php-parallel-lint": "^1.4.0",
-                "phpcompatibility/php-compatibility": "^9.0",
+                "phpcompatibility/php-compatibility": "^10.0.0@dev",
                 "phpcsstandards/phpcsdevtools": "^1.2.0",
-                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0"
+                "phpunit/phpunit": "^8.0 || ^9.0"
             },
             "suggest": {
                 "ext-iconv": "For improved results",
@@ -862,7 +863,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-07-24T20:08:31+00:00"
+            "time": "2025-11-25T12:08:04+00:00"
         }
     ],
     "aliases": [],
